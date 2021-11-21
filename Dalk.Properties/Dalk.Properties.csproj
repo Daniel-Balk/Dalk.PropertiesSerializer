@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Dalk.Properties</AssemblyName>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants />
+    <DocumentationFile>C:\Users\Dalk YouTube\src\PropertiesSerializer\PropertiesSerializer\Dalk.Properties.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

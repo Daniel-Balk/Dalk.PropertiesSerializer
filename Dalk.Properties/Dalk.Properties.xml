@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dalk.Properties</name>
+    </assembly>
+    <members>
+        <member name="T:Dalk.Properties.PropertyNameAttribute">
+            <summary>
+            Attribute for setting custom names for properties
+            </summary>
+        </member>
+        <member name="M:Dalk.Properties.PropertyNameAttribute.#ctor(System.String)">
+            <summary>
+            constructor for setting the properties name
+            </summary>
+            <param name="name">name in serialized string</param>
+        </member>
+        <member name="T:Dalk.Properties.Serializer">
+            <summary>
+            a class with serializing and deserializing properties
+            </summary>
+        </member>
+        <member name="M:Dalk.Properties.Serializer.Serialize(System.Object)">
+            <summary>
+            serialize an object to a properties string
+            </summary>
+            <param name="o">object to serialize</param>
+            <returns>the object serialized as a string</returns>
+        </member>
+        <member name="M:Dalk.Properties.Serializer.Deserialize``1(System.String)">
+            <summary>
+            deserializes from a string to an object
+            </summary>
+            <typeparam name="T">type of the object</typeparam>
+            <param name="properties">string to deserialize</param>
+            <returns>deserialized string as T</returns>
+        </member>
+    </members>
+</doc>
