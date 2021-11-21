@@ -4,11 +4,25 @@
     <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Dalk.Properties</AssemblyName>
     <RootNamespace />
+    <Authors>Dalk</Authors>
+    <Company>Dalk</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Dalk-GitHub/Dalk.Properties</RepositoryUrl>
+    <PackageTags>Properties, Serializer</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants />
     <DocumentationFile>C:\Users\Dalk YouTube\src\PropertiesSerializer\PropertiesSerializer\Dalk.Properties.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
