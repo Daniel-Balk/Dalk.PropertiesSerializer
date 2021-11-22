@@ -24,7 +24,14 @@ public class TestObject
     public SecondTestObject SecondTestObject { get; set; }
 }
 ```
+
 ### serialize an object
 ```csharp
 string properties = Serializer.Serialize(@object);
 ```
+
+### deserialize a string
+```csharp
+var @object = Serializer.Deserialize<TestObject>(properties);
+```
+
