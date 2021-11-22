@@ -3,7 +3,7 @@
 namespace Dalk.PropertiesSerializer.TypeSerializers.Serializers
 {
     [TypeSerializer]
-    internal class FloadSerializer : ITypeSerializer
+    internal class FloatSerializer : ITypeSerializer
     {
         public object Deserialize(string o)
         {
