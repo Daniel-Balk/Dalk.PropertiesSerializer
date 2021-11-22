@@ -10,6 +10,13 @@ namespace properties2csharp
         public static Configuration Configuration { get; set; } = new();
         public static string Generate(string propertiesInput, string name)
         {
+            Dictionary<string, bool> uses = new();
+            void AddUse(string u)
+            {
+                uses[u] = true;
+            }
+            AddUse("System");
+            AddUse("Dalk.PropertiesSerializer");
             string GenForTp(string properties, string nm)
             {
                 string s = "";
@@ -58,10 +65,16 @@ namespace properties2csharp
                     string r = Configuration.ObjectType;
                     if (ints.Match(val).Success)
                         r = Configuration.NumberType;
-                    if (val.ToLower() == "true")
-                        r = "bool";
-                    if (val.ToLower() == "false")
-                        r = "bool";
+                    else if (ints.Match(val.Replace(".", "")).Success)
+                        r = Configuration.PointNumberType;
+                    else if (ints.Match(val.ToLower().Replace(".","").Replace("f","")).Success)
+                        r = Configuration.FloatType;
+                    else if (val.ToLower() == "true")
+                        r = Configuration.BoolType;
+                    else if (val.ToLower() == "false")
+                        r = Configuration.BoolType;
+                    else if (DateTime.TryParse(val,out var _))
+                        r = Configuration.DateType;
                     return r;
                 }
                 void AddLineAsProp(KeyValuePair<string, string> ln)
@@ -115,23 +128,31 @@ namespace properties2csharp
                     }
                 }
                 s += $"public class {nm}\n";
-                s += "{\n";
+                s += "{";
                 foreach (var p in props)
                 {
+                    s += "\n";
                     if (p.Name != p.PropertyName)
                         s += $"    [PropertyName(\"{p.Name}\")]\n";
                     s += $"    public {p.Type} {p.PropertyName} ";
-                    s += "{ get; set; }\n\n";
+                    s += "{ get; set; }\n";
                 }
                 s += "}\n";
 
                 foreach (var c in customTypes)
                 {
-                    s += c.Value + "\n";
+                    s += "\n" + c.Value + "\n";
                 }
                 return s;
             }
-            return "using Dalk.PropertiesSerializer;\n\n" + GenForTp(propertiesInput, name);
+            var result = "";
+            foreach (var u in uses)
+            {
+                result += $"using {u.Key};\n";
+            }
+            result += "\n" + GenForTp(propertiesInput, name);
+            result = result.Remove(result.Length - 2);
+            return result;
         }
 
 
