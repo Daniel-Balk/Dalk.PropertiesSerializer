@@ -1,0 +1,46 @@
+﻿@page "/"
+
+<input type="text" @bind="name" />
+
+<textarea @bind="input">
+
+</textarea>
+
+<textarea @bind="result" readonly>
+
+</textarea>
+
+@code {
+    string result = "";
+    string nameS = "Welcome";
+    string inputS;
+    int timeout = 5;
+    string name
+    {
+        get
+        {
+            return nameS;
+        }
+        set
+        {
+            nameS = value;
+            OnChangeUpdate();
+        }
+    }
+    string input
+    {
+        get
+        {
+            return inputS;
+        }
+        set
+        {
+            inputS = value;
+            OnChangeUpdate();
+        }
+    }
+    void OnChangeUpdate()
+    {
+        result = properties2csharp.ClassGenerator.Generate(input, name);
+    }
+}
