@@ -57,3 +57,7 @@ public class TestTypeSerializer : ITypeSerializer
 Serializer.LoadTypeSerializersFromAssembly(Assembly.GetAssembly(GetType()));
 ```
 
+### add an object as a type serializer
+```csharp
+Serializer.AddCustomTypeSerializer(new TestTypeSerializer());
+```
