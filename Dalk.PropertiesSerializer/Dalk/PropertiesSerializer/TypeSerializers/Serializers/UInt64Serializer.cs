@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Dalk.Properties.TypeSerializers.Serializers
+namespace Dalk.PropertiesSerializer.TypeSerializers.Serializers
 {
     [TypeSerializer]
-    internal class DateTimeSerializer : ITypeSerializer
+    internal class UInt64Serializer : ITypeSerializer
     {
         public object Deserialize(string o)
         {
-            return DateTime.Parse(o);
+            return UInt64.Parse(o);
         }
 
-        readonly Type type = typeof(DateTime);
+        readonly Type type = typeof(UInt64);
         public Type GetCType()
         {
             return type;
@@ -18,7 +18,7 @@ namespace Dalk.Properties.TypeSerializers.Serializers
 
         public string Serialize(object o)
         {
-            return ((DateTime)o).ToString();
+            return ((UInt64)o).ToString();
         }
     }
 }

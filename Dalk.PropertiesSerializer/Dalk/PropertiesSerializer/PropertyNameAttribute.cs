@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Dalk.Properties
+namespace Dalk.PropertiesSerializer
 {
     /// <summary>
     /// Attribute for setting custom names for properties

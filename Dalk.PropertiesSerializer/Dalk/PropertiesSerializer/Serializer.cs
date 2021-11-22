@@ -1,8 +1,9 @@
-﻿using Dalk.Properties.TypeSerializers;
+﻿using Dalk.PropertiesSerializer.TypeSerializers;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 
-namespace Dalk.Properties
+namespace Dalk.PropertiesSerializer
 {
     /// <summary>
     /// a class with serializing and deserializing properties
@@ -189,5 +190,17 @@ namespace Dalk.Properties
 
             return instance;
         }
+
+        /// <summary>
+        /// scans an assembly for type serializers
+        /// </summary>
+        /// <param name="asm">assembly to scan</param>
+        public static void LoadTypeSerializersFromAssembly(Assembly asm) => SerialRegistry.LoadTypeSerializersFromAssembly(asm);
+
+        /// <summary>
+        /// adds a type serializer to the serializers
+        /// </summary>
+        /// <param name="serializer">type serializer to add</param>
+        public static void AddCustomTypeSerializer(ITypeSerializer serializer) => SerialRegistry.AddSerializer(serializer);
     }
 }

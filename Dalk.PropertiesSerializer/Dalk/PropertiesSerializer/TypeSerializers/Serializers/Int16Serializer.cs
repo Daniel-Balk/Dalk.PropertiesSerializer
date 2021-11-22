@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Dalk.Properties.TypeSerializers.Serializers
+namespace Dalk.PropertiesSerializer.TypeSerializers.Serializers
 {
     [TypeSerializer]
-    internal class CharSerializer : ITypeSerializer
+    internal class Int16Serializer : ITypeSerializer
     {
         public object Deserialize(string o)
         {
-            return char.Parse(o);
+            return Int16.Parse(o);
         }
 
-        readonly Type type = typeof(char);
+        readonly Type type = typeof(Int16);
         public Type GetCType()
         {
             return type;
@@ -18,7 +18,7 @@ namespace Dalk.Properties.TypeSerializers.Serializers
 
         public string Serialize(object o)
         {
-            return o.ToString();
+            return ((Int16)o).ToString();
         }
     }
 }

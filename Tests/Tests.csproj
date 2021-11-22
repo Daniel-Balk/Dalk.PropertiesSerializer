@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dalk.Properties\Dalk.Properties.csproj" />
+    <ProjectReference Include="..\Dalk.PropertiesSerializer\Dalk.PropertiesSerializer.csproj" />
   </ItemGroup>
 
 </Project>

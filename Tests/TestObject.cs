@@ -1,4 +1,4 @@
-﻿using Dalk.Properties;
+﻿using Dalk.PropertiesSerializer;
 
 namespace Tests
 {

@@ -3,30 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Dalk.Properties.TypeSerializers
+namespace Dalk.PropertiesSerializer.TypeSerializers
 {
     internal static class SerialRegistry
     {
         public static List<ITypeSerializer> Serializers { get; set; } = new();
         static bool su = false;
+        public static void LoadTypeSerializersFromAssembly(Assembly asm)
+        {
+            foreach (var t in asm.GetTypes())
+            {
+                var tst = t.GetCustomAttributes(typeof(TypeSerializerAttribute));
+                if (tst != null)
+                {
+                    var ts = tst.ToList();
+                    if (ts.Count > 0)
+                    {
+                        var o = Activator.CreateInstance(t);
+                        Serializers.Add((ITypeSerializer)o);
+                    }
+                }
+            }
+        }
+        public static void AddSerializer(ITypeSerializer s)
+        {
+            Serializers.Add(s);
+        }
         private static void Setup()
         {
             if (!su)
             {
                 var asm = Assembly.GetAssembly(typeof(SerialRegistry));
-                foreach (var t in asm.GetTypes())
-                {
-                    var tst = t.GetCustomAttributes(typeof(TypeSerializerAttribute));
-                    if (tst != null)
-                    {
-                        var ts = tst.ToList();
-                        if (ts.Count > 0)
-                        {
-                            var o = Activator.CreateInstance(t);
-                            Serializers.Add((ITypeSerializer)o);
-                        }
-                    }
-                }
+                LoadTypeSerializersFromAssembly(asm);
                 su = true;
             }
         }

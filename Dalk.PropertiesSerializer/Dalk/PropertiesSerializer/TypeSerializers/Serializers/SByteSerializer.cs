@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Dalk.Properties.TypeSerializers.Serializers
+namespace Dalk.PropertiesSerializer.TypeSerializers.Serializers
 {
     [TypeSerializer]
-    internal class FloadSerializer : ITypeSerializer
+    internal class SByteSerializer : ITypeSerializer
     {
         public object Deserialize(string o)
         {
-            return float.Parse(o);
+            return sbyte.Parse(o);
         }
 
-        readonly Type type = typeof(float);
+        readonly Type type = typeof(sbyte);
         public Type GetCType()
         {
             return type;

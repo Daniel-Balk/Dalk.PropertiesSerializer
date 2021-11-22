@@ -1,4 +1,4 @@
-﻿using Dalk.Properties;
+﻿using Dalk.PropertiesSerializer;
 using System;
 using System.Collections.Generic;
 using System.IO;

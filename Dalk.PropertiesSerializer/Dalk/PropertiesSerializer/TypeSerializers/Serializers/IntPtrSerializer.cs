@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Dalk.Properties.TypeSerializers.Serializers
+namespace Dalk.PropertiesSerializer.TypeSerializers.Serializers
 {
     [TypeSerializer]
-    internal class UInt64Serializer : ITypeSerializer
+    internal class IntPtrSerializer : ITypeSerializer
     {
         public object Deserialize(string o)
         {
-            return UInt64.Parse(o);
+            return IntPtr.Parse(o);
         }
 
-        readonly Type type = typeof(UInt64);
+        readonly Type type = typeof(IntPtr);
         public Type GetCType()
         {
             return type;
@@ -18,7 +18,7 @@ namespace Dalk.Properties.TypeSerializers.Serializers
 
         public string Serialize(object o)
         {
-            return ((UInt64)o).ToString();
+            return o.ToString();
         }
     }
 }
