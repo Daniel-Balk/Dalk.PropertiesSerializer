@@ -4,14 +4,11 @@ namespace Tests
 {
     public class TestObject
     {
-        public TestObject()
-        {
-        }
+        // use the attribute to specify a custom name
         [PropertyName("test_int")]
-        public int TestInt { get; set; } = 101;
-        public string TestString { get; set; } = "aaa";
-        public bool TestBool { get; set; } = true;
-        [PropertyName("second_obj")]
-        public SecondTestObject TestSubObject { get; set; } = new();
+        public int TestInt { get; set; }
+        public string TestString { get; set; }
+        public bool TestBool { get; set; }
+        public SecondTestObject TestSubObject { get; set; }
     }
 }
