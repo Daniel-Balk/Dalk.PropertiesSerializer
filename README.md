@@ -1,2 +1,5 @@
 # Dalk.Properties
- a properties serializer for c#
+ A properties serializer for C#
+
+
+## Documentation
