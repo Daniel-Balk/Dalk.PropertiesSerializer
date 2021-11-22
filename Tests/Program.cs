@@ -1,4 +1,4 @@
-﻿// import the serializer class
+﻿// import the serializer classes
 using Dalk.PropertiesSerializer;
 using System;
 using System.Collections.Generic;
