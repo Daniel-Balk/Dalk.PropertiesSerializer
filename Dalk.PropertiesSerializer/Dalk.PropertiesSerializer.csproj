@@ -7,13 +7,15 @@
     <Authors>Dalk</Authors>
     <Company>Dalk</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <RepositoryUrl>https://github.com/Dalk-GitHub/Dalk.Properties</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Dalk-GitHub/Dalk.PropertiesSerializer</RepositoryUrl>
     <PackageTags>Properties, Serializer</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl />
     <Description>a properties serializer for C#</Description>
+    <Product>Dalk.PropertiesSerializer</Product>
+    <PackageId>Dalk.PropertiesSerializer</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
