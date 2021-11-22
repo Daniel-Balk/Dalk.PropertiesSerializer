@@ -133,20 +133,27 @@ namespace Dalk.PropertiesSerializer
 
                         }
                     }
-                    var snm = name + "." + nm;
-                    var sval = "";
-                    if (kvps.ContainsKey(snm))
+                    try
                     {
-                        sval = kvps[snm];
+                        var snm = name + "." + nm;
+                        var sval = "";
+                        if (kvps.ContainsKey(snm))
+                        {
+                            sval = kvps[snm];
+                        }
+                        var deserialize = SerialRegistry.Deserialize(sval, c.PropertyType, out var can);
+                        if (can)
+                        {
+                            c.SetValue(o, deserialize);
+                        }
+                        else
+                        {
+                            c.SetValue(o, GetSubProperty(c.PropertyType, nm));
+                        }
                     }
-                    var deserialize = SerialRegistry.Deserialize(sval,c.PropertyType, out var can);
-                    if (can)
+                    catch (Exception)
                     {
-                        c.SetValue(o, deserialize);
-                    }
-                    else
-                    {
-                        c.SetValue(o, GetSubProperty(c.PropertyType, nm));
+
                     }
                 }
                 return o;
@@ -171,19 +178,26 @@ namespace Dalk.PropertiesSerializer
 
                     }
                 }
-                var sval = "";
-                if (kvps.ContainsKey(nm))
+                try
                 {
-                    sval = kvps[nm];
+                    var sval = "";
+                    if (kvps.ContainsKey(nm))
+                    {
+                        sval = kvps[nm];
+                    }
+                    var deserialize = SerialRegistry.Deserialize(sval, c.PropertyType, out var can);
+                    if (can)
+                    {
+                        c.SetValue(instance, deserialize);
+                    }
+                    else
+                    {
+                        c.SetValue(instance, GetSubProperty(c.PropertyType, nm));
+                    }
                 }
-                var deserialize = SerialRegistry.Deserialize(sval,c.PropertyType, out var can);
-                if (can)
+                catch (Exception)
                 {
-                    c.SetValue(instance, deserialize);
-                }
-                else
-                {
-                    c.SetValue(instance, GetSubProperty(c.PropertyType, nm));
+
                 }
             }
 
