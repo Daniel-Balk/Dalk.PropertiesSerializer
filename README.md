@@ -3,3 +3,9 @@
 
 
 ## Documentation
+
+### import the classes
+```csharp
+// import the serializer classes
+using Dalk.PropertiesSerializer;
+```
