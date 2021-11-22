@@ -1,4 +1,5 @@
-﻿using Dalk.PropertiesSerializer;
+﻿// import the serializer class
+using Dalk.PropertiesSerializer;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,9 +11,8 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            var properties = Serializer.Serialize(new TestObject());
             var @object = Serializer.Deserialize<TestObject>(File.ReadAllText("test.properties"));
-            Console.WriteLine(@object.TestString);
+            var properties = Serializer.Serialize(@object);
         }
     }
 }
