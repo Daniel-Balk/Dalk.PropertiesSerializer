@@ -17,11 +17,12 @@ namespace Tests
         }
         internal void RunTestCode()
         {
-            string properties = File.ReadAllText("test.properties");
-            var @object = Serializer.Deserialize<TestObject>(properties);
-            properties = Serializer.Serialize(@object);
-            Serializer.LoadTypeSerializersFromAssembly(Assembly.GetAssembly(GetType()));
-            Serializer.AddCustomTypeSerializer(new TestTypeSerializer());
+            File.WriteAllText("test.cs",  properties2csharp.ClassGenerator.Generate(File.ReadAllText("test.properties"),"TestClass"));
+            //string properties = File.ReadAllText("test.properties");
+            //var @object = Serializer.Deserialize<TestObject>(properties);
+            //properties = Serializer.Serialize(@object);
+            //Serializer.LoadTypeSerializersFromAssembly(Assembly.GetAssembly(GetType()));
+            //Serializer.AddCustomTypeSerializer(new TestTypeSerializer());
         }
     }
 }
