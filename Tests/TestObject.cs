@@ -11,7 +11,7 @@ namespace Tests
         public int TestInt { get; set; } = 101;
         public string TestString { get; set; } = "aaa";
         public bool TestBool { get; set; } = true;
-        [PropertyName("sub_obj")]
-        public TestSubObject TestSubObject { get; set; } = new();
+        [PropertyName("second_obj")]
+        public SecondTestObject TestSubObject { get; set; } = new();
     }
 }
