@@ -35,7 +35,7 @@ string properties = Serializer.Serialize(@object);
 var @object = Serializer.Deserialize<TestObject>(properties);
 ```
 
-### create a custom serializer
+### create a custom type serializer
 ```csharp
 using System;
 using Dalk.PropertiesSerializer.TypeSerializers;
@@ -51,3 +51,9 @@ public class TestTypeSerializer : ITypeSerializer
     public string Serialize(object o) => o.ToString();
 }
 ```
+
+### register all type type serializers from the current assembly
+```csharp
+Serializer.LoadTypeSerializersFromAssembly(Assembly.GetAssembly(GetType()));
+```
+
