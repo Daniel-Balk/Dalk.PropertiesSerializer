@@ -67,13 +67,13 @@ namespace properties2csharp
                         r = Configuration.NumberType;
                     else if (ints.Match(val.Replace(".", "")).Success)
                         r = Configuration.PointNumberType;
-                    else if (ints.Match(val.ToLower().Replace(".","").Replace("f","")).Success)
+                    else if (ints.Match(val.ToLower().Replace(".", "").Replace("f", "")).Success)
                         r = Configuration.FloatType;
                     else if (val.ToLower() == "true")
                         r = Configuration.BoolType;
                     else if (val.ToLower() == "false")
                         r = Configuration.BoolType;
-                    else if (DateTime.TryParse(val,out var _))
+                    else if (DateTime.TryParse(val, out var _))
                         r = Configuration.DateType;
                     return r;
                 }
@@ -131,17 +131,32 @@ namespace properties2csharp
                 s += "{";
                 foreach (var p in props)
                 {
-                    s += "\n";
-                    if (p.Name != p.PropertyName)
-                        s += $"    [PropertyName(\"{p.Name}\")]\n";
-                    s += $"    public {p.Type} {p.PropertyName} ";
-                    s += "{ get; set; }\n";
+                    try
+                    {
+                        s += "\n";
+                        if (p.Name != p.PropertyName)
+                            s += $"    [PropertyName(\"{p.Name}\")]\n";
+                        s += $"    public {p.Type} {p.PropertyName} ";
+                        s += "{ get; set; }\n";
+                    }
+                    catch (Exception)
+                    {
+
+                    }
                 }
-                s += "}\n";
+                s += "}";
+                s += "\n";
 
                 foreach (var c in customTypes)
                 {
-                    s += "\n" + c.Value + "\n";
+                    try
+                    {
+                        s += "\n" + c.Value + "\n";
+                    }
+                    catch (Exception)
+                    {
+
+                    }
                 }
                 return s;
             }
@@ -151,7 +166,7 @@ namespace properties2csharp
                 result += $"using {u.Key};\n";
             }
             result += "\n" + GenForTp(propertiesInput, name);
-            result = result.Remove(result.Length - 2);
+            result = result.TrimEnd();
             return result;
         }
 
