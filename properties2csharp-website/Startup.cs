@@ -41,7 +41,6 @@ namespace properties2csharp_website
             }
 
             app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

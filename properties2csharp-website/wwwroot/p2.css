@@ -1,0 +1,125 @@
+﻿:root {
+    --top: 70px;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'), url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:Arial;
+}
+
+.fx{
+    position:fixed;
+    top:var(--top);
+    height:calc(100% - 70px);
+}
+.ta{
+    resize:none;
+    border:none;
+    overflow:auto;
+    outline:none;
+    box-shadow:none;
+    font-family:'JetBrains Mono';
+    border-radius:0;
+}
+.l {
+    width: 50%;
+    top: var(--top);
+    left: 0;
+    right: 50%;
+    background-color: #052b4b;
+    color: #8a9698;
+}
+.r {
+    width: 50%;
+    top: var(--top);
+    left: 50%;
+    right: 0;
+    background-color: #ffffff;
+    border-radius: 2px;
+    color: #020202;
+}
+
+.st {
+    z-index: 1;
+    width: 270px;
+    position: absolute;
+    margin:20px;
+    padding: 8px 15px 5px;
+    right: 0;
+    border-radius: 2px;
+    color: rgba(0,0,0,.7);
+    font-size: small;
+    height: min-content;
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1),0 1px 1px rgba(16,22,26,.2),0 2px 6px rgba(16,22,26,.2);
+    line-height:6px;
+}
+
+button {
+    display: flex;
+    width: 100%;
+    -webkit-appearance: button;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: middle;
+    min-height: 30px;
+    min-width: 30px;
+    background-color: #f5f8fa;
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,.8),hsla(0,0%,100%,0));
+    box-shadow: inset 0 0 0 1px rgba(16,22,26,.2),inset 0 -1px 0 rgba(16,22,26,.1);
+    color: #182026;
+}
+
+input[type=text] {
+    display: block;
+    margin-top: 5px;
+    text-transform: none;
+    flex: 1 1 auto;
+    width: 93%;
+    appearance: none;
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0 rgba(20,123,190,0),0 0 0 0 rgba(20,123,190,0),inset 0 0 0 1px rgba(17,21,26,.15),inset 0 1px 1px rgba(16,23,26,.2);
+    color: #182026;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    padding: 0 10px;
+    transition: box-shadow .1s cubic-bezier(.4,1,.75,.9);
+    vertical-align: middle;
+}
+
+.na{
+    position:fixed;
+    width:100%;
+    left:0;
+    right:0;
+    top:0;
+    height:72px;
+    background-color:#0072ff;
+    line-height:var(--top);
+    padding-left:30px;
+    font-size:x-large;
+    color:#f1f1f1;
+    z-index:2;
+    user-select:none;
+}
+
+input[type=text]{
+    font-family:'JetBrains Mono';
+}

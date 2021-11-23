@@ -1,20 +1,41 @@
 ﻿@page "/"
+@page "/{*RouteStr}"
+@inject IJSRuntime js
 
-<input type="text" @bind="name" />
-
-<textarea @bind="input">
-
+<textarea class="ta fx l" @bind="input">
 </textarea>
-
-<textarea @bind="result" readonly>
-
+<textarea class="ta fx r" @bind="result" readonly>
 </textarea>
+<div class="fx st">
+    <p class="dt">Name</p>
+    <input type="text" @bind="name" />
+    <br />
+    <p class="dt">Generated namespace</p>
+    <input type="text" @bind="namespaces" />
+    <br />
+    <p class="dt">Type for integers</p>
+    <input type="text" @bind="intType" />
+    <br />
+    <p class="dt">Type for point numbers</p>
+    <input type="text" @bind="pnType" />
+    <br />
+    <br />
+    <button @onclick="CopyCode">Copy Code</button>
+    <br />
+</div>
+<div class="na">
+    properties2csharp
+</div>
 
 @code {
+    [Parameter]
+    public string RouteStr { get; set; }
     string result = "";
     string nameS = "Welcome";
-    string inputS;
+    string inputS = "";
     int timeout = 5;
+
+    Configuration conf = ClassGenerator.DefaultConfiguration;
     string name
     {
         get
@@ -24,6 +45,45 @@
         set
         {
             nameS = value;
+            OnChangeUpdate();
+        }
+    }
+    string namespaces
+    {
+        get
+        {
+            return conf.Namespace;
+        }
+        set
+        {
+            if(!string.IsNullOrEmpty(value))
+                conf.Namespace = value;
+            else
+                conf.Namespace = "Properties2CSharp";
+            OnChangeUpdate();
+        }
+    }
+    string pnType
+    {
+        get
+        {
+            return conf.PointNumberType;
+        }
+        set
+        {
+            conf.PointNumberType = value;
+            OnChangeUpdate();
+        }
+    }
+    string intType
+    {
+        get
+        {
+            return conf.NumberType;
+        }
+        set
+        {
+            conf.NumberType = value;
             OnChangeUpdate();
         }
     }
@@ -39,8 +99,17 @@
             OnChangeUpdate();
         }
     }
+    protected override void OnInitialized()
+    {
+        OnChangeUpdate();
+        base.OnInitialized();
+    }
     void OnChangeUpdate()
     {
-        result = properties2csharp.ClassGenerator.Generate(input, name);
+        result = ClassGenerator.Generate(input, name,conf);
+    }
+    void CopyCode()
+    {
+        js.InvokeVoidAsync("navigator.clipboard.writeText", result);
     }
 }

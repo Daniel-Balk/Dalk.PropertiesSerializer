@@ -7,8 +7,8 @@ namespace properties2csharp
 {
     public static class ClassGenerator
     {
-        public static Configuration Configuration { get; set; } = new();
-        public static string Generate(string propertiesInput, string name)
+        public static Configuration DefaultConfiguration { get; set; } = new();
+        public static string Generate(string propertiesInput, string name, Configuration Configuration)
         {
             Dictionary<string, bool> uses = new();
             void AddUse(string u)
@@ -49,7 +49,7 @@ namespace properties2csharp
                 Dictionary<string, string> customTypes = new();
                 string GetName(string b)
                 {
-                    var r = new StringBuilder(b);
+                    var r = new StringBuilder(b.Replace("-","_"));
                     r[0] = r[0].ToString().ToUpper().ToCharArray()[0];
                     while (r.ToString().Contains("_"))
                     {
@@ -127,16 +127,16 @@ namespace properties2csharp
                         AddLineAsProp(l);
                     }
                 }
-                s += $"public class {nm}\n";
-                s += "{";
+                s += $"    public class {nm}\n";
+                s += "    {";
                 foreach (var p in props)
                 {
                     try
                     {
                         s += "\n";
                         if (p.Name != p.PropertyName)
-                            s += $"    [PropertyName(\"{p.Name}\")]\n";
-                        s += $"    public {p.Type} {p.PropertyName} ";
+                            s += $"        [PropertyName(\"{p.Name}\")]\n";
+                        s += $"        public {p.Type} {p.PropertyName} ";
                         s += "{ get; set; }\n";
                     }
                     catch (Exception)
@@ -144,7 +144,7 @@ namespace properties2csharp
 
                     }
                 }
-                s += "}";
+                s += "    }";
                 s += "\n";
 
                 foreach (var c in customTypes)
@@ -165,7 +165,10 @@ namespace properties2csharp
             {
                 result += $"using {u.Key};\n";
             }
+            result += $"\nnamespace {Configuration.Namespace}\n";
+            result += "{";
             result += "\n" + GenForTp(propertiesInput, name);
+            result += "}";
             result = result.TrimEnd();
             return result;
         }

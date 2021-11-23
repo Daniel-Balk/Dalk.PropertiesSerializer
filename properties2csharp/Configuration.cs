@@ -8,5 +8,6 @@
         public string FloatType { get; set; } = "float";
         public string BoolType { get; set; } = "bool";
         public string DateType { get; set; } = "DateTime";
+        public string Namespace { get; set; } = "Properties2CSharp";
     }
 }
