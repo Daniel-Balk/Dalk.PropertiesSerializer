@@ -7,10 +7,10 @@ namespace properties2csharp
 {
     public static class ClassGenerator
     {
-        public static Configuration DefaultConfiguration { get; set; } = new();
+        public static Configuration DefaultConfiguration { get; set; } = new Configuration();
         public static string Generate(string propertiesInput, string name, Configuration Configuration)
         {
-            Dictionary<string, bool> uses = new();
+            Dictionary<string, bool> uses = new Dictionary<string, bool>();
             void AddUse(string u)
             {
                 uses[u] = true;
@@ -22,7 +22,7 @@ namespace properties2csharp
                 string s = "";
                 var prop = properties.Replace("\r\n", "\n");
                 var lines = prop.Split('\n');
-                Dictionary<string, string> kvps = new();
+                Dictionary<string, string> kvps = new Dictionary<string, string>();
                 foreach (var line in lines)
                 {
                     if (line.Trim().StartsWith("#"))
@@ -45,8 +45,8 @@ namespace properties2csharp
                         kvps[key] = value;
                     }
                 }
-                List<GenProperty> props = new();
-                Dictionary<string, string> customTypes = new();
+                List<GenProperty> props = new List<GenProperty>();
+                Dictionary<string, string> customTypes = new Dictionary<string, string>();
                 string GetName(string b)
                 {
                     var r = new StringBuilder(b.Replace("-","_"));
@@ -59,7 +59,7 @@ namespace properties2csharp
                     }
                     return r.ToString();
                 }
-                Regex ints = new(@"^[0-9]+$");
+                Regex ints = new Regex(@"^[0-9]+$");
                 string GetType(string val)
                 {
                     string r = Configuration.ObjectType;
@@ -79,13 +79,13 @@ namespace properties2csharp
                 }
                 void AddLineAsProp(KeyValuePair<string, string> ln)
                 {
-                    GenProperty prop = new()
+                    GenProperty propx = new GenProperty()
                     {
                         Name = ln.Key,
                         PropertyName = GetName(ln.Key),
                         Type = GetType(ln.Value)
                     };
-                    props.Add(prop);
+                    props.Add(propx);
                 }
                 string AsStr(Dictionary<string, string> d)
                 {
@@ -99,18 +99,18 @@ namespace properties2csharp
                 }
                 void AddLineAsPropWithTypeName(KeyValuePair<string, string> ln, string tn)
                 {
-                    GenProperty prop = new()
+                    GenProperty propx = new GenProperty
                     {
                         Name = ln.Key,
                         PropertyName = GetName(ln.Key),
                         Type = tn
                     };
-                    props.Add(prop);
+                    props.Add(propx);
                 }
                 foreach (var l in kvps)
                 {
                     var k = l.Key;
-                    if (k.Contains('.'))
+                    if (k.Contains("."))
                     {
                         int i = k.IndexOf('.');
                         var tns = k.Remove(i);
@@ -176,8 +176,8 @@ namespace properties2csharp
 
         private static void CollectStarting(Dictionary<string, string> dict, string startString, out Dictionary<string, string> starting, out Dictionary<string, string> other)
         {
-            Dictionary<string, string> st = new();
-            Dictionary<string, string> ot = new();
+            Dictionary<string, string> st = new Dictionary<string, string>();
+            Dictionary<string, string> ot = new Dictionary<string, string>();
             foreach (var c in dict)
             {
                 if (c.Key.StartsWith(startString))

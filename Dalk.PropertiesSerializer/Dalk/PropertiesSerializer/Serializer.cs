@@ -87,7 +87,7 @@ namespace Dalk.PropertiesSerializer
             T instance = (T)Activator.CreateInstance(typeof(T));
             var prop = properties.Replace("\r\n", "\n");
             var lines = prop.Split('\n');
-            Dictionary<string, string> kvps = new();
+            Dictionary<string, string> kvps = new Dictionary<string, string>();
             foreach (var line in lines)
             {
                 if (line.Trim().StartsWith("#"))
@@ -159,8 +159,8 @@ namespace Dalk.PropertiesSerializer
                 return o;
             }
 
-            var propertyValues = instance.GetType().GetProperties();
-            foreach (var c in propertyValues)
+            var propertyValuesx = instance.GetType().GetProperties();
+            foreach (var c in propertyValuesx)
             {
                 var nm = c.Name;
                 var attrs = c.GetCustomAttributes(typeof(PropertyNameAttribute),true);

@@ -7,7 +7,7 @@ namespace Dalk.PropertiesSerializer.TypeSerializers
 {
     internal static class SerialRegistry
     {
-        public static List<ITypeSerializer> Serializers { get; set; } = new();
+        public static List<ITypeSerializer> Serializers { get; set; } = new List<ITypeSerializer>();
         static bool su = false;
         public static void LoadTypeSerializersFromAssembly(Assembly asm)
         {
