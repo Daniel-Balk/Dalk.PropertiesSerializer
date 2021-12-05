@@ -333,5 +333,10 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+# Electron App / Node JS
 node_modules*
 node_modules/*
+
+# Builds
+Properties2CSharp.exe
+Properties2CSharp.msi

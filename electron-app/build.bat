@@ -1,0 +1,1 @@
+electron-packager ./ properties2csharp --platform=win32 --arch=x64
