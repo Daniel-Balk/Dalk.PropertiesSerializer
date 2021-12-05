@@ -123,3 +123,28 @@ input[type=text] {
 input[type=text]{
     font-family:'JetBrains Mono';
 }
+
+.tda{
+    width:max-content;
+}
+
+.dl {
+    top:24px;
+    cursor: pointer;
+    position:absolute;
+    right:50px;
+    text-decoration:none;
+    color:white;
+}
+.dl:hover{
+    color:white;
+}
+.hd{
+    visibility:hidden;
+    height:0;
+    width:0;
+    left:0;
+    right:100%;
+    top:0;
+    bottom:100%;
+}

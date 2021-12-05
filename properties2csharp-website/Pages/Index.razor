@@ -24,92 +24,119 @@
     <br />
 </div>
 <div class="na">
-    properties2csharp
+    <table style="width:100%;">
+        <tr>
+            <td class="tda">
+                properties2csharp
+            </td>
+            <td id="blz">
+                @if (!electron)
+				{
+						<div style="width:100%;">
+							<a href="/Properties2CSharp.msi" download="Properties2CSharp.msi" target="_blank">
+								<i id="dlb" class="dl fas fa-download"></i>    
+							</a>
+						</div>
+				}
+			</td>
+		</tr>
+	</table>
 </div>
 
 @code {
-    [Parameter]
-    public string RouteStr { get; set; }
-    string result = "// Nothing to show";
-    string nameS = "Welcome";
-    string inputS = "";
-    int timeout = 5;
+	[Parameter]
+	public string RouteStr { get; set; }
+	string result = "// Nothing to show";
+	string nameS = "Welcome";
+	string inputS = "";
+	int timeout = 5;
 
-    Configuration conf = ClassGenerator.DefaultConfiguration;
-    string name
-    {
-        get
-        {
-            return nameS;
-        }
-        set
-        {
-            nameS = value;
-            OnChangeUpdate();
-        }
-    }
-    string namespaces
-    {
-        get
-        {
-            return conf.Namespace;
-        }
-        set
-        {
-            if(!string.IsNullOrEmpty(value))
-                conf.Namespace = value;
-            else
-                conf.Namespace = "Properties2CSharp";
-            OnChangeUpdate();
-        }
-    }
-    string pnType
-    {
-        get
-        {
-            return conf.PointNumberType;
-        }
-        set
-        {
-            conf.PointNumberType = value;
-            OnChangeUpdate();
-        }
-    }
-    string intType
-    {
-        get
-        {
-            return conf.NumberType;
-        }
-        set
-        {
-            conf.NumberType = value;
-            OnChangeUpdate();
-        }
-    }
-    string input
-    {
-        get
-        {
-            return inputS;
-        }
-        set
-        {
-            inputS = value;
-            OnChangeUpdate();
-        }
-    }
-    protected override void OnInitialized()
-    {
-        OnChangeUpdate();
-        base.OnInitialized();
-    }
-    void OnChangeUpdate()
-    {
-        result = ClassGenerator.Generate(input, name,conf);
-    }
-    void CopyCode()
-    {
-        js.InvokeVoidAsync("navigator.clipboard.writeText", result);
-    }
+	Configuration conf = ClassGenerator.DefaultConfiguration;
+	string name
+	{
+		get
+		{
+			return nameS;
+		}
+		set
+		{
+			nameS = value;
+			OnChangeUpdate();
+		}
+	}
+	string namespaces
+	{
+		get
+		{
+			return conf.Namespace;
+		}
+		set
+		{
+			if (!string.IsNullOrEmpty(value))
+				conf.Namespace = value;
+			else
+				conf.Namespace = "Properties2CSharp";
+			OnChangeUpdate();
+		}
+	}
+	string pnType
+	{
+		get
+		{
+			return conf.PointNumberType;
+		}
+		set
+		{
+			conf.PointNumberType = value;
+			OnChangeUpdate();
+		}
+	}
+	string intType
+	{
+		get
+		{
+			return conf.NumberType;
+		}
+		set
+		{
+			conf.NumberType = value;
+			OnChangeUpdate();
+		}
+	}
+	string input
+	{
+		get
+		{
+			return inputS;
+		}
+		set
+		{
+			inputS = value;
+			OnChangeUpdate();
+		}
+	}
+	protected override void OnInitialized()
+	{
+		OnChangeUpdate();
+		base.OnInitialized();
+	}
+	void OnChangeUpdate()
+	{
+		result = ClassGenerator.Generate(input, name, conf);
+	}
+	void CopyCode()
+	{
+		js.InvokeVoidAsync("navigator.clipboard.writeText", result);
+	}
+
+	bool electron;
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		var iE = (await js.InvokeAsync<string>("isElectron"));
+		if (iE == "true")
+			electron = true;
+		else
+			electron = false;
+		StateHasChanged();
+	}
 }
