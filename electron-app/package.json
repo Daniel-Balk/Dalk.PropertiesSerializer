@@ -16,7 +16,9 @@
     "electron-packager": "^15.4.0"
   },
   "files": [
-    "./*"
+    "./*.*",
+    "./res/*",
+    "./node_modules/*"
   ],
   "directories": {
     "buildResources": "res"

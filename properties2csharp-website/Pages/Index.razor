@@ -129,14 +129,22 @@
 		js.InvokeVoidAsync("navigator.clipboard.writeText", result);
 	}
 
-	bool electron;
+	bool electron = true;
 	protected override async Task OnAfterRenderAsync(bool firstRender)
 	{
-		var iE = (await js.InvokeAsync<string>("isElectron"));
-		if (iE == "true")
-			electron = true;
-		else
-			electron = false;
-		StateHasChanged();
+		if (firstRender)
+			try
+			{
+				var iE = (await js.InvokeAsync<string>("isElectron"));
+				if (iE == "true")
+					electron = true;
+				else
+					electron = false;
+				StateHasChanged();
+			}
+			catch (Exception)
+			{
+
+			}
 	}
 }

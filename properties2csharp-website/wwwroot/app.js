@@ -1,6 +1,4 @@
-﻿console.log("loaded app.js")
-
-function isElectronX() {
+﻿function isElectronX() {
     // Renderer process
     if (typeof window !== 'undefined' && typeof window.process === 'object' && window.process.type === 'renderer') {
         return true;
@@ -21,17 +19,10 @@ function isElectronX() {
 
 function isElectron() {
     var b = isElectronX();
-    console.warn(b);
     if (b) {
         return "true";
     }
     else {
         return "false";
-    }
-}
-
-window.checkDownload = () => {
-    if (isElectron()) {
-        document.getElementById("blz").style.visibility = "hidden";
     }
 }

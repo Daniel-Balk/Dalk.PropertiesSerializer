@@ -139,12 +139,3 @@ input[type=text]{
 .dl:hover{
     color:white;
 }
-.hd{
-    visibility:hidden;
-    height:0;
-    width:0;
-    left:0;
-    right:100%;
-    top:0;
-    bottom:100%;
-}
