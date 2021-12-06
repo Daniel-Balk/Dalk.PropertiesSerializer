@@ -60,14 +60,21 @@ namespace properties2csharp
                     return r.ToString();
                 }
                 Regex ints = new Regex(@"^[0-9]+$");
+                bool IntOrPn(string st)
+                {
+                    var pcount = st.Length - st.Replace(".", "").Length;
+                    if(pcount > 1)
+                        return false;
+                    return ints.IsMatch(st.Replace(".",""));
+                }
                 string GetType(string val)
                 {
                     string r = Configuration.ObjectType;
                     if (ints.Match(val).Success)
                         r = Configuration.NumberType;
-                    else if (ints.Match(val.Replace(".", "")).Success)
+                    else if (IntOrPn(val))
                         r = Configuration.PointNumberType;
-                    else if (ints.Match(val.ToLower().Replace(".", "").Replace("f", "")).Success)
+                    else if (IntOrPn(val.ToLower().Replace("f", "")))
                         r = Configuration.FloatType;
                     else if (val.ToLower() == "true")
                         r = Configuration.BoolType;

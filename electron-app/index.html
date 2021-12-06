@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>properties2csharp</title>
-
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -18,7 +17,11 @@
       </div>
 
       <div id="window-controls">
-
+        <div class="button" id="reload-button">
+          <img class="icon x"
+            src="res/reload.svg"
+            draggable="false" />
+        </div>
         <div class="button" id="min-button">
           <img class="icon"
             srcset="res/icons/min-w-10.png 1x, res/icons/min-w-12.png 1.25x, res/icons/min-w-15.png 1.5x, res/icons/min-w-15.png 1.75x, res/icons/min-w-20.png 2x, res/icons/min-w-20.png 2.25x, res/icons/min-w-24.png 2.5x, res/icons/min-w-30.png 3x, res/icons/min-w-30.png 3.5x"
@@ -46,7 +49,7 @@
   <span style="position: fixed;left: 0;width: 0;height: 0;right: 100%;bottom: 100%;overflow: hidden;"
     id="electron-ver"></span>
   <div id="main">
-    <iframe src="https://properties2csharp.dalkyt.de"></iframe>
+    <iframe id="page" src="https://properties2csharp.dalkyt.de"></iframe>
     <!--<iframe src="http://localhost:5003/"></iframe>-->
   </div>
 

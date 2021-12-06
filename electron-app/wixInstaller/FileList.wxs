@@ -8,460 +8,463 @@
     </Fragment>
     <Fragment>
         <ComponentGroup Id="CG.ProductComponents">
-            <Component Id="cmp5BBEF2BB3E27B626D57407BE10B3FFD8" Directory="INSTALLDIR" Guid="{694A2888-895C-4350-ADE5-8F4ABEEA5879}">
+            <Component Id="cmp5BBEF2BB3E27B626D57407BE10B3FFD8" Directory="INSTALLDIR" Guid="{E77C8764-C14C-4F7D-AAC7-6CAE7AE9216D}">
                 <File Id="filF61C9C093697C490D95A36FC693EEBF3" KeyPath="yes" Source="..\properties2csharp-win32-x64\chrome_100_percent.pak" />
             </Component>
-            <Component Id="cmp14812F1FC6C083E47F25A1033CD085A5" Directory="INSTALLDIR" Guid="{EF81D973-E0C8-4330-BD39-DF70E53B3E64}">
+            <Component Id="cmp14812F1FC6C083E47F25A1033CD085A5" Directory="INSTALLDIR" Guid="{A0F1AC01-8987-4A8D-886D-44D59A55F782}">
                 <File Id="fil8FC8E3538744AFE5989880C724915EBA" KeyPath="yes" Source="..\properties2csharp-win32-x64\chrome_200_percent.pak" />
             </Component>
-            <Component Id="cmp593B47C5A296958937B4699BB126000F" Directory="INSTALLDIR" Guid="{6DDE461D-9820-4B6B-A946-D5E98E64A3CB}">
+            <Component Id="cmp593B47C5A296958937B4699BB126000F" Directory="INSTALLDIR" Guid="{FB9F12EB-59C3-4ED2-AF5B-DC3DE9E694A0}">
                 <File Id="fil74C30EBEB08AD69984405E221438C865" KeyPath="yes" Source="..\properties2csharp-win32-x64\d3dcompiler_47.dll" />
             </Component>
-            <Component Id="cmpDB457CEA22C6A6C2486436F004FEB234" Directory="INSTALLDIR" Guid="{B62630D1-DD9D-4DDC-8395-23992A622EC8}">
+            <Component Id="cmpDB457CEA22C6A6C2486436F004FEB234" Directory="INSTALLDIR" Guid="{55484273-201D-4FDA-A333-F27D9806CD83}">
                 <File Id="fil3203085B8E08E788009DE158F2205D3E" KeyPath="yes" Source="..\properties2csharp-win32-x64\ffmpeg.dll" />
             </Component>
-            <Component Id="cmp2CB181F06249C39F4FEB29A2086FF619" Directory="INSTALLDIR" Guid="{C83279B8-69F2-4234-B6E4-B5EE18BD9F41}">
+            <Component Id="cmp2CB181F06249C39F4FEB29A2086FF619" Directory="INSTALLDIR" Guid="{CD7F8A8E-873C-4D26-A9BF-62623958B3C5}">
                 <File Id="fil623D04A95B27EA6BC5EEE006250395BB" KeyPath="yes" Source="..\properties2csharp-win32-x64\icudtl.dat" />
             </Component>
-            <Component Id="cmp5DDCF0CE56D406D1B8B1F93E988AED6B" Directory="INSTALLDIR" Guid="{E459FAD4-BDC6-4A7F-917F-CA13ACB977E8}">
+            <Component Id="cmp5DDCF0CE56D406D1B8B1F93E988AED6B" Directory="INSTALLDIR" Guid="{0810B05F-B474-4BAD-930E-7E21BE13D808}">
                 <File Id="fil0F4CD3729AF07C1C460E292E0F081D0A" KeyPath="yes" Source="..\properties2csharp-win32-x64\libEGL.dll" />
             </Component>
-            <Component Id="cmpB0CFEB9FF932521D6A75B6BE6F8D644F" Directory="INSTALLDIR" Guid="{55B33D53-0683-4450-9464-B64FACAAE863}">
+            <Component Id="cmpB0CFEB9FF932521D6A75B6BE6F8D644F" Directory="INSTALLDIR" Guid="{0D04AB78-6B61-445B-BA65-BF8024EECCCF}">
                 <File Id="fil736048FE57EC840EA5DCE88625C38E8D" KeyPath="yes" Source="..\properties2csharp-win32-x64\libGLESv2.dll" />
             </Component>
-            <Component Id="cmp3FF6DCE0D0033820184F84E911819031" Directory="INSTALLDIR" Guid="{0DB70209-CEF4-4171-B90F-5BA6C3BA13BA}">
+            <Component Id="cmp3FF6DCE0D0033820184F84E911819031" Directory="INSTALLDIR" Guid="{4F50DE28-AB16-4B36-9DD8-A5F4D4EC3505}">
                 <File Id="fil93C2623A85FD0206E6A65950D378964B" KeyPath="yes" Source="..\properties2csharp-win32-x64\LICENSE" />
             </Component>
-            <Component Id="cmp450D4C860D0CA925F578A211DE8A02F8" Directory="INSTALLDIR" Guid="{A48240E6-FD05-4CCA-BDFE-E71AADE97FD6}">
+            <Component Id="cmp450D4C860D0CA925F578A211DE8A02F8" Directory="INSTALLDIR" Guid="{4464D735-3604-4FCF-B5B5-875AB4F089EC}">
                 <File Id="filE5740DF8CC09D53D3A2A16BF8CF5915D" KeyPath="yes" Source="..\properties2csharp-win32-x64\LICENSES.chromium.html" />
             </Component>
-            <Component Id="cmp9EDB891FF549439E30B167B965D03230" Directory="INSTALLDIR" Guid="{5E7C428C-35F7-456A-A54E-D76FD58D90AE}">
-                <File Id="fil1F3D799320D0AE5C25FE90AB6304E96D" KeyPath="yes" Source="..\properties2csharp-win32-x64\properties2csharp.exe" />
+            <Component Id="cmpB5A6EEF576BCC81F0DDEEF6159446487" Directory="INSTALLDIR" Guid="{A8C1EADF-F7CB-4930-B14B-B71EAEE3F95F}">
+                <File Id="fil653EFD663C1CEC6251D15DFB85ED417A" KeyPath="yes" Source="..\properties2csharp-win32-x64\Properties2CSharp.exe" />
             </Component>
-            <Component Id="cmp6EFFB8248868D3F243716E8539FD7A70" Directory="INSTALLDIR" Guid="{E8D2C9D7-497F-4F21-84D1-79C06586674E}">
+            <Component Id="cmp6EFFB8248868D3F243716E8539FD7A70" Directory="INSTALLDIR" Guid="{8832B146-9225-4CD5-8E83-4F3DF10F82CA}">
                 <File Id="filABD65DF44EF42D360908888B7B437CF0" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources.pak" />
             </Component>
-            <Component Id="cmp939A03A1D5316FD7464E1211355E0BBF" Directory="INSTALLDIR" Guid="{20E46624-5F7F-463A-BB41-11758106FD9C}">
+            <Component Id="cmp939A03A1D5316FD7464E1211355E0BBF" Directory="INSTALLDIR" Guid="{18776CB7-9F05-4D46-9061-51344682E611}">
                 <File Id="filB1E02FD4DF2AD830151686A1B0813A3B" KeyPath="yes" Source="..\properties2csharp-win32-x64\snapshot_blob.bin" />
             </Component>
-            <Component Id="cmp49FC78DB761A2F02451F964C668157F9" Directory="INSTALLDIR" Guid="{66E175F9-1125-4B76-9C73-BF082A8FF4AE}">
+            <Component Id="cmp49FC78DB761A2F02451F964C668157F9" Directory="INSTALLDIR" Guid="{8660DC21-C492-47D2-AC37-36CE621DB6CB}">
                 <File Id="fil0EFD83D2C2D8006AEF99691655F71A34" KeyPath="yes" Source="..\properties2csharp-win32-x64\v8_context_snapshot.bin" />
             </Component>
-            <Component Id="cmpFEDC358473042627E4CCCCA10F2DB027" Directory="INSTALLDIR" Guid="{33F0A309-80DE-4EF1-8F46-FEA2DCDAB9DD}">
+            <Component Id="cmpFEDC358473042627E4CCCCA10F2DB027" Directory="INSTALLDIR" Guid="{0DAA879C-3621-476D-BBCE-D9320E068D77}">
                 <File Id="fil64E31BC98BBDA239E371170FC0A0820F" KeyPath="yes" Source="..\properties2csharp-win32-x64\version" />
             </Component>
-            <Component Id="cmpF93B8D606C35D22837A07B0F42131B4B" Directory="INSTALLDIR" Guid="{FBD7CBA7-8B48-441B-B461-5F8C0517BDA0}">
+            <Component Id="cmpF93B8D606C35D22837A07B0F42131B4B" Directory="INSTALLDIR" Guid="{7B952F6C-955B-4D35-9BA9-99ED9B6BEBA8}">
                 <File Id="filD2FCF8E3A6CA5FFAD853804AC55447C9" KeyPath="yes" Source="..\properties2csharp-win32-x64\vk_swiftshader.dll" />
             </Component>
-            <Component Id="cmp0F4FA52A814089F3984C2B63EF5D9780" Directory="INSTALLDIR" Guid="{A821B17B-22D6-4B45-9A3E-FA94A13FC47A}">
+            <Component Id="cmp0F4FA52A814089F3984C2B63EF5D9780" Directory="INSTALLDIR" Guid="{417E9A1D-34A3-4A46-A365-2C25CD7E3FB9}">
                 <File Id="filA93DC86E9428F3E2F316767A7698F775" KeyPath="yes" Source="..\properties2csharp-win32-x64\vk_swiftshader_icd.json" />
             </Component>
-            <Component Id="cmpCEDF9F382DAFA88A4D45035281A963F1" Directory="INSTALLDIR" Guid="{BC08565B-CFD7-4768-A6BC-FEDC8647049E}">
+            <Component Id="cmpCEDF9F382DAFA88A4D45035281A963F1" Directory="INSTALLDIR" Guid="{535FE792-5FED-4DC8-A201-FE685FFA5A77}">
                 <File Id="fil9AAF168E494292700A68BAEE79E76F34" KeyPath="yes" Source="..\properties2csharp-win32-x64\vulkan-1.dll" />
             </Component>
-            <Component Id="cmp1B8D75B534A12D2AA6C9E85C27F3B5C2" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{FE9A6F32-B401-4703-A277-2D333D5CBF3D}">
+            <Component Id="cmp1B8D75B534A12D2AA6C9E85C27F3B5C2" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{CB6F1447-CA11-4356-8E77-7448DBFDA105}">
                 <File Id="filF343E04CB45CA330FD7D03555BDFD8B2" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\am.pak" />
             </Component>
-            <Component Id="cmpBB6D00A53492D2D7EC0B6B36E3AB08F5" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{6A58D491-C6A5-418B-AA49-94B3AD7514EC}">
+            <Component Id="cmpBB6D00A53492D2D7EC0B6B36E3AB08F5" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{2F14551F-E88B-4251-9BD3-8DD4BBABA911}">
                 <File Id="filDE3FC993376D25F96B23796794D744BE" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ar.pak" />
             </Component>
-            <Component Id="cmpEA32BD79171C0E467B1B41A6ED829617" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{186D685C-7590-47E1-BAC6-3F6EBAACD901}">
+            <Component Id="cmpEA32BD79171C0E467B1B41A6ED829617" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{FAE1BA1F-CF2D-4CAF-A897-0B925411578A}">
                 <File Id="filE35F3B69C0E565904E485252698E8BDB" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\bg.pak" />
             </Component>
-            <Component Id="cmp020F19ACA82CDE060286E97432195433" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{3C9EF8C9-B0CB-4A9D-B5AC-2CC37B316A3C}">
+            <Component Id="cmp020F19ACA82CDE060286E97432195433" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{029AD8B8-25FC-4E31-92F4-7F45A02C3A1F}">
                 <File Id="fil58B8FB84D4B4D8B5DA9B4E9FC8B00880" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\bn.pak" />
             </Component>
-            <Component Id="cmpC71556D9728D691E3D08ABA913EDCD2C" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{042D39D0-89E5-4DC5-93A9-CB67E3AF5314}">
+            <Component Id="cmpC71556D9728D691E3D08ABA913EDCD2C" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B7E381A9-0677-4C45-93B9-06767870E1AA}">
                 <File Id="fil47A683CF870D8CFA150AEA5361466149" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ca.pak" />
             </Component>
-            <Component Id="cmpD0AA0E33E1F40A545486CE27D7698130" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B2203F78-E84F-4336-8493-2AAA63679164}">
+            <Component Id="cmpD0AA0E33E1F40A545486CE27D7698130" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{AD63F792-D307-46C6-8440-F459784C2835}">
                 <File Id="filB9E18B02618EA00AE7FD30E20490AB09" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\cs.pak" />
             </Component>
-            <Component Id="cmpB22E793AB0E064B0398F5217D4C10F5A" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{366BC287-CB6A-4698-8039-495ABE40A714}">
+            <Component Id="cmpB22E793AB0E064B0398F5217D4C10F5A" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{F742FE59-0ED6-47CC-A10F-7ACC974C4B53}">
                 <File Id="filA2F19C6299827DCCBF5D25C7870B9B54" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\da.pak" />
             </Component>
-            <Component Id="cmpEB8BD998A6C12CE1E9332A904D235ED2" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{DBCF608C-BA44-49FD-8388-1667B93FB87C}">
+            <Component Id="cmpEB8BD998A6C12CE1E9332A904D235ED2" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{17CA5726-F34B-4DD5-BBFB-3AF0F0B29D82}">
                 <File Id="filFF073A4D64A7C9EFBDCCB0E4B84CCB13" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\de.pak" />
             </Component>
-            <Component Id="cmp550863411F30BD7462E7F357A74D43D5" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{D3FA8F80-6B4F-41DD-BF86-4E384CA218D7}">
+            <Component Id="cmp550863411F30BD7462E7F357A74D43D5" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B2F3233A-CA21-4A34-A780-EB97AF2EC90D}">
                 <File Id="fil228B40ECB6CF0E6CA098118269A87849" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\el.pak" />
             </Component>
-            <Component Id="cmp391159C0D65CA97E508275A365F667AF" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{1E5FFD4E-DA02-4E1D-A746-5276A1F6ED02}">
+            <Component Id="cmp391159C0D65CA97E508275A365F667AF" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{57CBB017-BC89-4089-B20E-789165F31294}">
                 <File Id="fil9B8DDA86CA2809848F160AF87E6639C7" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\en-GB.pak" />
             </Component>
-            <Component Id="cmp5C7429CF0CCA0A2F988DC61A5E0A4783" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{AC44C030-B697-4B86-9B4D-03037346054C}">
+            <Component Id="cmp5C7429CF0CCA0A2F988DC61A5E0A4783" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{9D9DFE92-AC6B-4B30-A7A7-CDA118B1EA5B}">
                 <File Id="fil49A7F348F1C08F04196EBE24B20D9BA1" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\en-US.pak" />
             </Component>
-            <Component Id="cmpEFEB2D4955561AB4E4542C15A89B5B32" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{4511D722-F807-409C-8AD6-A1BC768D763A}">
+            <Component Id="cmpEFEB2D4955561AB4E4542C15A89B5B32" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{CB5237AE-662F-47CF-A380-AF84285EB625}">
                 <File Id="filCAF3974878861512E4795EF326530993" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\es-419.pak" />
             </Component>
-            <Component Id="cmp8A30F2A960D0FC26E07CB603BDE5D345" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B5AF050D-3238-4063-A3E6-F7801FCEC8CF}">
+            <Component Id="cmp8A30F2A960D0FC26E07CB603BDE5D345" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B80B24F9-2CF9-4736-B3BD-9E57A69944BA}">
                 <File Id="fil1E3510FC28A149E3C3E9AAA2C619E6C5" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\es.pak" />
             </Component>
-            <Component Id="cmp1B22BFA7AF06A4836157E0D6A2AC7C81" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{65D9EFC8-8F94-4728-AC47-EC762B2192F5}">
+            <Component Id="cmp1B22BFA7AF06A4836157E0D6A2AC7C81" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{F108EFAA-9C76-4AE5-9EC2-5B45B14F3968}">
                 <File Id="fil4D5EB530E2E60DC15E4ECE5B52535A3B" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\et.pak" />
             </Component>
-            <Component Id="cmpC694CE163C0416F7F5C1A6405FA86B11" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{07103FBE-9DF9-4405-81D3-C20761F169BC}">
+            <Component Id="cmpC694CE163C0416F7F5C1A6405FA86B11" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{C30DA3C6-1AB1-4A45-B599-DD97CFD7C06C}">
                 <File Id="fil997560129DB0FE8CC434DB1387DA5D40" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\fa.pak" />
             </Component>
-            <Component Id="cmp026B44CD93B5AE3CDA96A9B7B7DE1D95" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{37111FEF-4135-466A-82AC-ECA88BC1205A}">
+            <Component Id="cmp026B44CD93B5AE3CDA96A9B7B7DE1D95" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{AF2C33EB-6E15-4331-959D-F5E7808D489B}">
                 <File Id="fil5EF49BDEFD29DF61E2C3E40DDC810EDD" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\fi.pak" />
             </Component>
-            <Component Id="cmp0C58F15D67050C8292C764631B322654" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{7BFA25CB-1591-4BA5-A7B2-D729E7AB4473}">
+            <Component Id="cmp0C58F15D67050C8292C764631B322654" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{7F00E670-EA29-4717-8AA3-74543A843EA3}">
                 <File Id="filC38CE060BBA51B81F31C59949E04B4A0" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\fil.pak" />
             </Component>
-            <Component Id="cmp6A168A6D0BF60F488492D2016FDD3D7D" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{063F8DFB-03C8-425D-A6D7-006A16AADCDE}">
+            <Component Id="cmp6A168A6D0BF60F488492D2016FDD3D7D" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{9AFF53B8-9729-4D45-835C-6C1E7774526E}">
                 <File Id="fil5BC185ABBC27545F6A24D845293883AF" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\fr.pak" />
             </Component>
-            <Component Id="cmpADF73400C2A118A3E1C34AA56DE00083" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{2468BD30-1210-4644-B520-CAE5288E29A3}">
+            <Component Id="cmpADF73400C2A118A3E1C34AA56DE00083" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{EEEECE16-8B6C-45BF-856A-FCA733AC8624}">
                 <File Id="fil6A6A5934C431308D2AB583922879B032" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\gu.pak" />
             </Component>
-            <Component Id="cmpFA012C378D6346D9B8D1674115960BDE" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{63D1E6C0-1866-4BE8-B0C4-B27554B618D2}">
+            <Component Id="cmpFA012C378D6346D9B8D1674115960BDE" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{01E099AC-8C53-4001-B530-C83C314CDA63}">
                 <File Id="filAF5E0219CD5830F47E17088519B7EF6F" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\he.pak" />
             </Component>
-            <Component Id="cmpFE10BFF4AC9D3263C68A7AD34D1001A6" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{D209FB45-1060-40F6-A672-B6A4742E6CEC}">
+            <Component Id="cmpFE10BFF4AC9D3263C68A7AD34D1001A6" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{4E2D913F-C177-44AF-BCE1-94C5CFAB090A}">
                 <File Id="fil3465DA871C2CF1F905D46BB550EAD4CC" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\hi.pak" />
             </Component>
-            <Component Id="cmp933D76729090587A7B65283C73A4CEC9" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{37E5981D-19EC-4C7F-9208-0A9F34D10C99}">
+            <Component Id="cmp933D76729090587A7B65283C73A4CEC9" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B7A54F45-8026-4A91-A304-36228DA1EE1A}">
                 <File Id="filC2DC474743A301BBB7689A3DEEF163AE" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\hr.pak" />
             </Component>
-            <Component Id="cmp9C3DE6F48B6EAC5F51BC8209E5C30EDF" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{07ACC931-55D0-4E8D-8ED9-501ED57D7BA7}">
+            <Component Id="cmp9C3DE6F48B6EAC5F51BC8209E5C30EDF" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{5332B487-E85F-4A11-A932-EE54B1407B09}">
                 <File Id="filB4271D6A03E1CB150DF95325E79FC4A0" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\hu.pak" />
             </Component>
-            <Component Id="cmp64584C3B02B6A78B0EF3245A0FEFE473" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{CFE1DDC4-7C1A-4E04-8B95-2F2C17A19CE9}">
+            <Component Id="cmp64584C3B02B6A78B0EF3245A0FEFE473" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{84903DF0-F6C7-41C8-91A2-E5BA2BE05722}">
                 <File Id="fil6EF363AE6120991043D49AE2844666D3" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\id.pak" />
             </Component>
-            <Component Id="cmp08B98333F544EE1A481F253A67796F06" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{F8206329-7F9E-42BF-8DB9-3BF45B6A6BF5}">
+            <Component Id="cmp08B98333F544EE1A481F253A67796F06" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{3050A153-C45C-48A8-8678-2E35C1E3BAF6}">
                 <File Id="filE562159C88EB5418CB36C79525398005" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\it.pak" />
             </Component>
-            <Component Id="cmp374E425681E78F9574A574FF71722428" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{23A86785-F358-48D6-859B-1AE4F72771B0}">
+            <Component Id="cmp374E425681E78F9574A574FF71722428" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{54BF02C4-0A25-4CC5-8A62-B6205D48E310}">
                 <File Id="filB29A320625BFFBC445D786B529FE2FEB" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ja.pak" />
             </Component>
-            <Component Id="cmpE80A12ECA9E8037BAC5EDC7DABDBE411" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{E93C4A1E-BBE4-4ECB-BA4C-0A78FA45FF9D}">
+            <Component Id="cmpE80A12ECA9E8037BAC5EDC7DABDBE411" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{6BA381D9-5AC4-4E5C-9D04-4DEE9D98DCDB}">
                 <File Id="fil04B483DDD18A0981F34920DB4BC8959D" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\kn.pak" />
             </Component>
-            <Component Id="cmpF81B13AB32BBE1429E867254320367B1" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{A3E4FC6F-EB1B-4A83-BADD-4DB45A549DB4}">
+            <Component Id="cmpF81B13AB32BBE1429E867254320367B1" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{027B4199-0D24-47DF-8ED0-FF984AF69EDD}">
                 <File Id="fil49B54C7FAC6967083E8DAB43D3B26460" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ko.pak" />
             </Component>
-            <Component Id="cmp169A981B444EF17964A9E5E6CF1FFCE7" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{EB9613AB-6B28-43C9-8B9F-FDA0D76AB196}">
+            <Component Id="cmp169A981B444EF17964A9E5E6CF1FFCE7" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{21542C32-C754-4D83-9DD7-ED701DA461AC}">
                 <File Id="filE0571C92BE18C63BDA76557C1E7E0BA7" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\lt.pak" />
             </Component>
-            <Component Id="cmp2C14D6A8D2148B82E9AA3C4B5A9244D6" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{EBF448C0-5E17-470E-84EA-2DA6AC5B90D5}">
+            <Component Id="cmp2C14D6A8D2148B82E9AA3C4B5A9244D6" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{72F7E215-C8EA-41BD-96F2-B6BF68B657A7}">
                 <File Id="fil09E251C30EC1AF141196A0ED430FB866" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\lv.pak" />
             </Component>
-            <Component Id="cmp6EA5236A0E09048C953E34307AA83761" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{57CA7198-B51B-4220-86F2-568CBBF5246A}">
+            <Component Id="cmp6EA5236A0E09048C953E34307AA83761" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{CF0EAB4E-8730-490F-893D-3382947A9E97}">
                 <File Id="filD6F0237F09293544CA2A4480FAB0370F" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ml.pak" />
             </Component>
-            <Component Id="cmp65EBAF7CC5F7D6C01175E18F16BB8A6F" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{A78FD1FA-FD33-4EC2-802B-BCE5318493C8}">
+            <Component Id="cmp65EBAF7CC5F7D6C01175E18F16BB8A6F" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{86A276EC-D84D-43ED-BA8C-C646C3F6FB97}">
                 <File Id="fil1A2C7B35CD12A5389F7AFD36EA6B45C6" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\mr.pak" />
             </Component>
-            <Component Id="cmp56F6FDE624A39544ED4A19CD31ABE113" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{04B36DEE-7A52-48B1-98CE-F5B7641D33A6}">
+            <Component Id="cmp56F6FDE624A39544ED4A19CD31ABE113" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{7F4FD314-3446-4291-AC45-F65CCDC965A3}">
                 <File Id="filE90DC5C45B9D23432E63E911625D1D73" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ms.pak" />
             </Component>
-            <Component Id="cmp7ADF0E1B35AFEAA2C3E648D100D1DCCB" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{104F11DB-0850-4B0D-BB67-770B610F7D99}">
+            <Component Id="cmp7ADF0E1B35AFEAA2C3E648D100D1DCCB" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{6094F7C1-7563-4BB2-859B-20704C1196D1}">
                 <File Id="fil690FDFC707303410F541C38361BE07E3" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\nb.pak" />
             </Component>
-            <Component Id="cmp026C6682D94A491BF5EE6829763CA73F" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{FAA8A825-7F3E-4388-B9FB-AB1B054AFAA9}">
+            <Component Id="cmp026C6682D94A491BF5EE6829763CA73F" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{F1F69677-D23D-40F5-8813-6CDC1D2463F3}">
                 <File Id="filBCAFFD4E8DE438C86DC10C97C166280F" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\nl.pak" />
             </Component>
-            <Component Id="cmpEB784F92D865A14E6D69202B8E3000C3" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{3EC3D27B-B659-4B1A-838C-502EF2220B5E}">
+            <Component Id="cmpEB784F92D865A14E6D69202B8E3000C3" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{235E5B89-B61B-45D1-8A49-D672E60003B7}">
                 <File Id="fil71BCF18F4FAD66EE2441A727CF5670E0" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\pl.pak" />
             </Component>
-            <Component Id="cmpD16912F468142E2A974DF5DB5C5E1BAD" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{FB3B2947-40CE-4D34-A94B-A9BB8DF7224B}">
+            <Component Id="cmpD16912F468142E2A974DF5DB5C5E1BAD" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{BA9E3BF0-7462-400F-AB22-E886D46D6D6C}">
                 <File Id="filAA298FEEEBA1E1141115BE8F6988E3CA" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\pt-BR.pak" />
             </Component>
-            <Component Id="cmpA0BFD8C06ABD9C38B370E7DAAA5D1166" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{2640AEB5-06B4-4DF3-BAA1-45B6949FB22F}">
+            <Component Id="cmpA0BFD8C06ABD9C38B370E7DAAA5D1166" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{098E78DF-1FEE-41FC-B7A4-C0C46FAF45DF}">
                 <File Id="filDB176878BCE0968B453C1102700588F2" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\pt-PT.pak" />
             </Component>
-            <Component Id="cmp7F020F42A1C1B0119421ED3973E5B9BB" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{72C4C310-748D-4EAB-BD9B-CC26D918BCF0}">
+            <Component Id="cmp7F020F42A1C1B0119421ED3973E5B9BB" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{B347AD9D-37E8-4BA4-823D-DD48D8FCDF29}">
                 <File Id="fil7BBF90423B25BCA69BF3E380C3CD7B20" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ro.pak" />
             </Component>
-            <Component Id="cmp4769864D0832FADFD6FB24F87930D34F" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{EFC5AAE2-0EAC-4A4B-8186-3E8CD6E9191F}">
+            <Component Id="cmp4769864D0832FADFD6FB24F87930D34F" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{A83D381D-BA3F-4C7B-A3AF-D9659F110003}">
                 <File Id="filA2B65D6AD01446A1E29666C6E397BA3E" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ru.pak" />
             </Component>
-            <Component Id="cmp211D3724749C3952BEFEF8DF3C3973BF" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{47A83CAB-DC2A-43C0-AEB7-156B08373F7D}">
+            <Component Id="cmp211D3724749C3952BEFEF8DF3C3973BF" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{6648B570-8A95-450B-9E18-A448134C35E2}">
                 <File Id="fil26063910F5FB1FCE84B3E49E756B2AEA" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\sk.pak" />
             </Component>
-            <Component Id="cmp28A18F57A1C7957CEB6226C2DD211242" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{25A3CC50-F85D-445D-84DE-189284B9C8CA}">
+            <Component Id="cmp28A18F57A1C7957CEB6226C2DD211242" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{6C5A7F96-E00D-4E67-B23F-5A961E860203}">
                 <File Id="fil83934B51C9563E2FC1971F37CA1BEB22" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\sl.pak" />
             </Component>
-            <Component Id="cmpE3B560558F7AE351423D23AFFA82483E" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{C369F633-D6BA-4325-837A-E449337A9A22}">
+            <Component Id="cmpE3B560558F7AE351423D23AFFA82483E" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{58C01BD7-7CD4-4859-A9CF-A83B72FD6F22}">
                 <File Id="fil43F61AC3E1BD5E1FC6449AEF931BE3EF" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\sr.pak" />
             </Component>
-            <Component Id="cmp0BC848D31607A27744FD7422A0A63A7E" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{DA578AAD-BB38-4CD1-8E5F-5F10CFC6200F}">
+            <Component Id="cmp0BC848D31607A27744FD7422A0A63A7E" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{A3097AAA-6E42-4D24-A67E-019A93676DE9}">
                 <File Id="fil9A557436F2D211CD509F7B083FA9FE8B" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\sv.pak" />
             </Component>
-            <Component Id="cmp2186B99000AFCD0A6038DA24C9788347" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{DDA4B542-6772-483D-BB59-947EDA5B0175}">
+            <Component Id="cmp2186B99000AFCD0A6038DA24C9788347" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{6568057C-3AA9-4A1D-B688-7CA0447F161A}">
                 <File Id="fil017548B91D8710640BE5E9FE1412A41C" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\sw.pak" />
             </Component>
-            <Component Id="cmpEBFB7AC0FCF52B4833754399A1CF9C44" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{987C5380-0C99-4177-A136-348FE6CF793C}">
+            <Component Id="cmpEBFB7AC0FCF52B4833754399A1CF9C44" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{5EB93328-D26A-4BB8-882A-AA66C298BFE1}">
                 <File Id="filB38C2F4C5E11FD94F075D2BED5303BE8" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\ta.pak" />
             </Component>
-            <Component Id="cmp7B33FBE076E56915F3C698382FDF793C" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{5647A585-7984-440A-9E46-8A2D7D5A396A}">
+            <Component Id="cmp7B33FBE076E56915F3C698382FDF793C" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{3A2E35C8-E92B-4374-9DE3-D1D87816CEFF}">
                 <File Id="fil640FCE87BD8ADEF98EBF2A698F702266" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\te.pak" />
             </Component>
-            <Component Id="cmp3CA3E1B1FF67221DFC354D21667D5C91" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{02CA365B-C85E-47FC-9127-0B30BE9C951C}">
+            <Component Id="cmp3CA3E1B1FF67221DFC354D21667D5C91" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{4B0F0CF2-923B-45C0-A6A7-9386185C42C2}">
                 <File Id="fil6BEBF1BDD6563937FFF31F916C31D834" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\th.pak" />
             </Component>
-            <Component Id="cmpB4108B3D6523A91005441A7A73781654" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{9ECCE22A-5443-4746-8082-CC5F911D254C}">
+            <Component Id="cmpB4108B3D6523A91005441A7A73781654" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{68B03DA1-0EED-4DE1-9336-1404357841F9}">
                 <File Id="fil39B104B14FD80385387C1538109F5908" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\tr.pak" />
             </Component>
-            <Component Id="cmp05106526A9BFC99BE5BF039B8999D5D0" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{CE9BEA40-4AEB-410B-A5D1-13379FD5BD17}">
+            <Component Id="cmp05106526A9BFC99BE5BF039B8999D5D0" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{0FBEEC8C-4690-4872-BC5F-D930F9B0BDA4}">
                 <File Id="fil3E415DCAB1A1A947D0A68DDA5F38F771" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\uk.pak" />
             </Component>
-            <Component Id="cmp2A9B03FA25F11A3521F78E1E12F00770" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{1B889E2B-34C0-447E-B7DC-8289F5F0EE9C}">
+            <Component Id="cmp2A9B03FA25F11A3521F78E1E12F00770" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{66FB7C9D-1825-47D2-A1C8-53509E23AD11}">
                 <File Id="filC721AEC7FB3AF88EB038061D61629DA0" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\vi.pak" />
             </Component>
-            <Component Id="cmpB503073AA24AA6FC76850BF10C31CF59" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{D41D8D09-EA01-4C94-BEF8-33EF201472AC}">
+            <Component Id="cmpB503073AA24AA6FC76850BF10C31CF59" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{A6993F88-0140-4ED8-991B-5B12BD31286C}">
                 <File Id="filF866C06FC6833FDE2869E1F3FC79DE50" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\zh-CN.pak" />
             </Component>
-            <Component Id="cmp2E186059BBAB57B86E85713863FAA015" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{D90FB173-5065-45BE-BAC2-318FB8AF86B7}">
+            <Component Id="cmp2E186059BBAB57B86E85713863FAA015" Directory="dirC2A25BD972A0CE6CA0E5449830E3199D" Guid="{AB848DE6-A857-4726-AF11-248CF0EFF35B}">
                 <File Id="filC7397185A49B5FA0845C93B37FD273B5" KeyPath="yes" Source="..\properties2csharp-win32-x64\locales\zh-TW.pak" />
             </Component>
-            <Component Id="cmp3C99F07D776442CD48274E4050E496E7" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{CE8C417C-77FD-4F34-9FD9-63EFC4B52596}">
+            <Component Id="cmp3C99F07D776442CD48274E4050E496E7" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{799B8252-F98C-44A5-BE01-311D802BA388}">
                 <File Id="fil60754C2D39E39227BB5CC1AD3BB418E2" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\build.bat" />
             </Component>
-            <Component Id="cmp57E8280E8E16B7D7CB2F7A067211B815" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{F04ABC98-C7EC-43FA-A5B1-2156B54BC1D0}">
+            <Component Id="cmp57E8280E8E16B7D7CB2F7A067211B815" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{65448519-8993-4D80-B3A8-C0A198CB6C92}">
                 <File Id="fil41F8929FDB4062232380449733DB8103" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\icon.icns" />
             </Component>
-            <Component Id="cmp0A4747725CD6BB6935DC746FA94F5CAF" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{47BE762F-DA2B-41FB-B52D-B556A1766600}">
+            <Component Id="cmp0A4747725CD6BB6935DC746FA94F5CAF" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{34D93DFC-1F45-4D9E-B495-AF07DE76395F}">
                 <File Id="filAB30C13C88BF018BE8C540FC1C79D330" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\icon.ico" />
             </Component>
-            <Component Id="cmp13DDFAEF67BE872D29EC48346CBC7738" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{02039C4D-18D1-4A71-BCBC-654C1CA02DFF}">
+            <Component Id="cmp13DDFAEF67BE872D29EC48346CBC7738" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{896B0260-E0BB-4C9F-A05E-EF27A2D19785}">
                 <File Id="fil0B1FBD574C1995B26AD542BBABFA817F" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\index.html" />
             </Component>
-            <Component Id="cmp525B2BF3971517C459A415E1FF968CCB" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{934C921A-3DF9-47A5-AEB7-E3C2D61B8679}">
+            <Component Id="cmp525B2BF3971517C459A415E1FF968CCB" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{BFC6E6D1-7C13-4784-9643-A39B89D6AB88}">
                 <File Id="filD7D6512202CF8B7CE7EBCAAE7A12E23A" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\is.bat" />
             </Component>
-            <Component Id="cmp02FE3E0C237CC00FF766844B02D80EB1" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{F4C4A0B1-05B5-4847-994C-325F1897F62F}">
+            <Component Id="cmp02FE3E0C237CC00FF766844B02D80EB1" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{A8BBCDDF-9410-4282-B4A2-75A633605773}">
                 <File Id="fil0EEE5EED65D7BAB769CB6F4F53DAA039" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\main.js" />
             </Component>
-            <Component Id="cmpCD3BF5A0401757AF6CB1BF338600EE87" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{97217379-4CA4-4B75-B15E-B982B4B2FEDE}">
+            <Component Id="cmpCD3BF5A0401757AF6CB1BF338600EE87" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{59F66D1F-5E99-414F-8ACF-3064EF1D708C}">
                 <File Id="filC8D0EBACCFB7DDE310EBB676159AF24E" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\make-app.bat" />
             </Component>
-            <Component Id="cmp073D17A887B6ED8A336025D6B5932986" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{239DF7EB-87A0-4CC5-849E-5E35BA05C67C}">
+            <Component Id="cmp073D17A887B6ED8A336025D6B5932986" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{5971712C-F0C3-497E-8EAB-6D944986F132}">
                 <File Id="fil072F191D80AEC616B936A9CCA33FDA3E" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\p2c.pdn" />
             </Component>
-            <Component Id="cmp02E263C795775132B49AFC93B9474005" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{88E2EF46-6547-48CF-937F-C7400D10E1FA}">
+            <Component Id="cmp02E263C795775132B49AFC93B9474005" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{EDCBD97A-1B34-45F5-AAC1-64DDB43DA314}">
                 <File Id="fil4CFE6CE1D49E60C04039ED45450989BD" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\p2c.png" />
             </Component>
-            <Component Id="cmp90664275D0770B468946768FE636EE66" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{CAB867C2-3643-4F93-B756-E6B5EE6191A7}">
+            <Component Id="cmp90664275D0770B468946768FE636EE66" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{083EF4CD-C4D8-4548-B507-148D3396DCB5}">
                 <File Id="filBF008F9AC2FF80CB82B9AFBBA4E79F9B" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\package.json" />
             </Component>
-            <Component Id="cmp119BB154914C2F2F9E67E429475DA08C" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{991B9860-E004-4B16-AF3F-8CEADDB032D3}">
+            <Component Id="cmp119BB154914C2F2F9E67E429475DA08C" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{5DE3A45E-69E8-4368-8F01-DB8FD957FDFE}">
                 <File Id="fil6D5A7B0C702CB5A2193141FC07E289E0" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\README.md" />
             </Component>
-            <Component Id="cmp714917BE848E4A6CF5D11CDC0CF777C8" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{0F0F329C-9EEE-441C-B4E4-E50DC54E8674}">
+            <Component Id="cmp714917BE848E4A6CF5D11CDC0CF777C8" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{59F1CE04-67D1-4E1F-8F03-48CC0A57DE36}">
                 <File Id="fil9ADB71EA8EAC55B91F842E3898BA6888" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\renderer.js" />
             </Component>
-            <Component Id="cmp413489BAC58913F5A6EA6B77E9EF9615" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{570B5EA4-1099-4AB5-8A17-19061801F991}">
+            <Component Id="cmp413489BAC58913F5A6EA6B77E9EF9615" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{4ECBE8D3-6EFD-4923-8FF5-FDBCF825B3CF}">
                 <File Id="fil28298692FCCB5DBB8609C6E90B5BC8D4" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\rn.bat" />
             </Component>
-            <Component Id="cmp646AA645FAAF87A75DE990928B6B7FDB" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{4CA05635-453C-448B-84A8-548AF4488626}">
+            <Component Id="cmp646AA645FAAF87A75DE990928B6B7FDB" Directory="dir4C89484CFE2EECB33D23790DF8DB5CE0" Guid="{3799E2BA-63B9-486A-B3C1-656A96A7BD11}">
                 <File Id="filEFEA02A2D40A151C235B5CC32924F2FF" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\style.css" />
             </Component>
-            <Component Id="cmpD887B598653BB92B84BDF2CB892AC76E" Directory="dir542B4F0A695060387C733F2DC210FFDC" Guid="{5F5D4E99-EFB0-4737-A163-7C2C02EA83F1}">
+            <Component Id="cmpD887B598653BB92B84BDF2CB892AC76E" Directory="dir542B4F0A695060387C733F2DC210FFDC" Guid="{3DA15CA5-E6A6-40F7-B576-8EB1559E1EB9}">
                 <File Id="filEC0E817D4B5DF0FA9A5BFC577C50EFEC" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\.vscode\launch.json" />
             </Component>
-            <Component Id="cmp03169F48A4BEC36920CFA3F78BCC0BF3" Directory="dir31230C98C5EDAA469FD43F195F35E93A" Guid="{DD6EEFEC-2B04-4931-852D-83F464EF6FA9}">
+            <Component Id="cmp03169F48A4BEC36920CFA3F78BCC0BF3" Directory="dir31230C98C5EDAA469FD43F195F35E93A" Guid="{878BE10B-BEE5-47D8-871E-890C37B70EA2}">
                 <File Id="fil5832E48B07ADACAEED62907DC59E5E30" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\node_modules\.package-lock.json" />
             </Component>
-            <Component Id="cmp005239122529C1940F86299C5005C70C" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{A6E22687-5AD2-4FED-BA11-DD445E274E2C}">
+            <Component Id="cmp005239122529C1940F86299C5005C70C" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{BE6C18FA-4301-40B5-99B0-5D46D4EBE498}">
                 <File Id="fil05120AA98A74498CA6B13A301FF5468B" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icon.icns" />
             </Component>
-            <Component Id="cmpD06F7C8B3A45F99CFE9102B1CD23C24F" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{644DAB2A-4BEA-4087-A69D-ECF5286B98AE}">
+            <Component Id="cmpD06F7C8B3A45F99CFE9102B1CD23C24F" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{E74BCBE4-6A63-4A55-AB4F-D3291362DD4F}">
                 <File Id="fil569DBED2885B6BF6D5B472D70DF1D17B" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icon.ico" />
             </Component>
-            <Component Id="cmp746B6F13526B6E706E4F1B21BF37A621" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{DE155705-34A6-422A-84AC-2FECACD081B5}">
+            <Component Id="cmp746B6F13526B6E706E4F1B21BF37A621" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{89E92AF1-C515-40B8-88A2-213F484F8E4D}">
                 <File Id="filB8C0A82BA4788E15E526BBA3FE7DB1CB" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\p2c.png" />
             </Component>
-            <Component Id="cmpCCAB3FDD7F17233BE44AF83001FEABA1" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6805BC7C-C770-45BB-9814-CB63216C2875}">
+            <Component Id="cmpFDEEC195C15DCA3FD9A2ACEB3C58AC88" Directory="dir7370B5A20642A939C482B8A838E97A8C" Guid="{DA794098-5F35-45E9-956F-59BED3508F56}">
+                <File Id="filDC023EE147855CA4883B8E217635EB48" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\reload.svg" />
+            </Component>
+            <Component Id="cmpCCAB3FDD7F17233BE44AF83001FEABA1" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{C467F206-90BD-490C-9C26-8B94E8CC4827}">
                 <File Id="fil975F41DD65C45663683AC8C5333ECB41" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-k-10.png" />
             </Component>
-            <Component Id="cmp74090D8466398D9637DA4389ACF2C9FB" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{5488639D-C6CE-4814-8677-2D802D77CB01}">
+            <Component Id="cmp74090D8466398D9637DA4389ACF2C9FB" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{7E488E23-2B07-41FB-A8A5-D366BD26595B}">
                 <File Id="filAD8F8219AA5A2CC35CAD65E69D7A5E83" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-k-12.png" />
             </Component>
-            <Component Id="cmpC7933607BDDCA342D5A22048A2B7DE5F" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{8D589127-8396-445B-B461-1FE05E97A680}">
+            <Component Id="cmpC7933607BDDCA342D5A22048A2B7DE5F" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{7851D29A-3C88-40A4-8B19-01C87E407B8F}">
                 <File Id="filE8473C3212BE6E43D4AE7F158925AA0C" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-k-15.png" />
             </Component>
-            <Component Id="cmp8CB9C0CE6BEAA30326682977D0651FAD" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6CCD9247-6782-4CAB-B5B4-6B46C010F209}">
+            <Component Id="cmp8CB9C0CE6BEAA30326682977D0651FAD" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{48E43C98-20FC-4A6E-B292-4A0C261BA588}">
                 <File Id="fil9963CFD87D71DC914CC4875334662254" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-k-20.png" />
             </Component>
-            <Component Id="cmpB4E1AACC9425103744F24187CB127B96" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{17AC4EDB-5C7D-402A-BBEB-714845607791}">
+            <Component Id="cmpB4E1AACC9425103744F24187CB127B96" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{263CBB17-CA6E-4A6A-92E3-1503978A4480}">
                 <File Id="fil72713852E1B12860C81AB0645120F683" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-k-24.png" />
             </Component>
-            <Component Id="cmpE376E8B2ACA6D93B17971F54C07E02E1" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{9A6891BB-1DC5-4656-8628-E6CB1173AB39}">
+            <Component Id="cmpE376E8B2ACA6D93B17971F54C07E02E1" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{0B82FD97-0623-414C-AE34-42A82B2BB75C}">
                 <File Id="filEC2813D3C499D239F7C462819FCDA3C3" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-k-30.png" />
             </Component>
-            <Component Id="cmpEDA533CE08453E907529234CEF86A168" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{4F6CB47E-DDDE-4A7E-A842-C8262C7E01FB}">
+            <Component Id="cmpEDA533CE08453E907529234CEF86A168" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{56CA4072-11C3-4F01-A909-C8139BF8A860}">
                 <File Id="fil586C702A076509E6764E272D1B265FF5" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-w-10.png" />
             </Component>
-            <Component Id="cmpAB7BC31583497C48326C10BA03A20110" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{618BB0DB-A534-42A9-843C-A27452A91849}">
+            <Component Id="cmpAB7BC31583497C48326C10BA03A20110" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{42F685B0-D31B-4F58-ACC5-D48A4F0F7B49}">
                 <File Id="filBF110B289FF73EC9203E89EAC8CCE9D2" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-w-12.png" />
             </Component>
-            <Component Id="cmpF5DA4BEE1E4B53CB7E669990F6BCF2C3" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{3164EFAD-941A-417A-AC23-D76DBEBDD8BE}">
+            <Component Id="cmpF5DA4BEE1E4B53CB7E669990F6BCF2C3" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{B31EFC96-43F5-4813-92E6-0B2A328C7BD1}">
                 <File Id="fil960CD323C4056CAA588AEA31119C6011" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-w-15.png" />
             </Component>
-            <Component Id="cmpE4E2BF5C3A8D636974781485F07555E1" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{514CE2BE-86C5-4047-A93A-C6AFDAF6A739}">
+            <Component Id="cmpE4E2BF5C3A8D636974781485F07555E1" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{25939AE0-6518-4861-8776-7EA4321CB5B4}">
                 <File Id="filB384C82E3BA1686C6FB83282FF8CFAD3" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-w-20.png" />
             </Component>
-            <Component Id="cmp47134F006AAEB46270991AA23A59A9C0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{F29E23A1-B8C2-4C35-9C8E-725E0222855C}">
+            <Component Id="cmp47134F006AAEB46270991AA23A59A9C0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{C51C82AE-F0EF-4694-A3D6-4CC989300735}">
                 <File Id="fil0CDC09A22E317B9F805F4DBB07ADCE41" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-w-24.png" />
             </Component>
-            <Component Id="cmp90CF8BB4E2A6E7E0EE679FEFE4E56209" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{AB2A263A-24BD-47A1-B2C5-A0A1E01B1D0A}">
+            <Component Id="cmp90CF8BB4E2A6E7E0EE679FEFE4E56209" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{59835F0B-BF76-464C-9688-B44101448FB2}">
                 <File Id="fil511755661A33D1ED0D53486FAE76FF80" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\close-w-30.png" />
             </Component>
-            <Component Id="cmpB573E6B1F3684924D860F7B0A2913970" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6EB83717-DC49-451D-A327-568F995F5CAB}">
+            <Component Id="cmpB573E6B1F3684924D860F7B0A2913970" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{FAF67C99-5FED-4499-A222-DA3E02F3E366}">
                 <File Id="filADB04BA9BD06E96939C5410693475187" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-k-10.png" />
             </Component>
-            <Component Id="cmpFC8BFB61AD8150EA9A03291F62E30E6C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{EC9A9914-0BBC-497A-BD60-F27BEC42EBCA}">
+            <Component Id="cmpFC8BFB61AD8150EA9A03291F62E30E6C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{E68F4A08-735C-40CB-B452-8A3C4D1D8995}">
                 <File Id="fil71C7786931158255871B7642C2D3AECA" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-k-12.png" />
             </Component>
-            <Component Id="cmp58EA52DF33C63F078BE18278CBF66208" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{FFA007F1-8EB8-4108-8EBD-C7FB461281F3}">
+            <Component Id="cmp58EA52DF33C63F078BE18278CBF66208" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{583CB1B1-77A4-496E-9C36-4B8564E005C8}">
                 <File Id="fil7C1B0CADCFD5042F4D7F6895B8B3A9C5" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-k-15.png" />
             </Component>
-            <Component Id="cmp1001FE0500A8720A3C715A6548403CD6" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{331F9EEB-DDE1-4966-A2EF-52B37EE6D332}">
+            <Component Id="cmp1001FE0500A8720A3C715A6548403CD6" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{E41301F3-4478-47AB-B856-CA84E69CFEF5}">
                 <File Id="fil82FED215951DCADEE45BF7572D08ED94" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-k-20.png" />
             </Component>
-            <Component Id="cmpAA038C11B487F5FDBBC1BFFC122985DD" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{207C8A9E-9FAD-4BC4-AA03-4A5A285FA817}">
+            <Component Id="cmpAA038C11B487F5FDBBC1BFFC122985DD" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{A53CB22B-D6F0-4B90-92F4-275EB5218A61}">
                 <File Id="filA75C5E43877DCEDE8E0D66D7FC4EA9CB" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-k-24.png" />
             </Component>
-            <Component Id="cmp89CD9C8E7EFD82A18B07170DA6C0D048" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{21EBC7C3-A282-4896-B07A-DE0C3456CF6E}">
+            <Component Id="cmp89CD9C8E7EFD82A18B07170DA6C0D048" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{07064F70-BD31-4234-B2BE-9C86B3E7A723}">
                 <File Id="fil27506D7BBB62E9F6421EC8A7E75F614E" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-k-30.png" />
             </Component>
-            <Component Id="cmp6A7967E928907CE133B5E02E04EEBEFA" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{AC1A5484-C1D5-4C73-AC5B-87050083D94F}">
+            <Component Id="cmp6A7967E928907CE133B5E02E04EEBEFA" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{BCA35667-41B5-45E7-B81A-55420EC66FAC}">
                 <File Id="filBA4F1E88D4E763DA0707701C1F28D65E" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-w-10.png" />
             </Component>
-            <Component Id="cmpCEC435F427517AB87C8E5F9E74C792AB" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{99D9821C-A2B1-4E10-A465-3523C531B356}">
+            <Component Id="cmpCEC435F427517AB87C8E5F9E74C792AB" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{FB621958-9919-49F3-9E6B-B602C76E3CFE}">
                 <File Id="filD6FF6F76002A3F5E6201FE3B75ECB7A0" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-w-12.png" />
             </Component>
-            <Component Id="cmp399874A231D44EF642A1CDFD16580151" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{DD05080B-2515-4023-A1EA-379EC3839CC3}">
+            <Component Id="cmp399874A231D44EF642A1CDFD16580151" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{A86E9BF4-F7E7-44ED-9DDC-832F7DADE3FB}">
                 <File Id="fil5DFA25ED484C18C552EC2903EBDDD5DA" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-w-15.png" />
             </Component>
-            <Component Id="cmpA6937BEE7D18ED98E31475D729FA698A" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{E01E9B87-20C4-4D49-B7D5-51FE421A21B1}">
+            <Component Id="cmpA6937BEE7D18ED98E31475D729FA698A" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{A5ABCABD-1C66-4874-B927-1B0DAE3D15C8}">
                 <File Id="fil9F7270BFB08380D0575257A56520C7D8" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-w-20.png" />
             </Component>
-            <Component Id="cmpC31645F3219AF2681C19D587E0D8294C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{D39F3DF9-0B81-48EA-9F34-71E3EC9FD743}">
+            <Component Id="cmpC31645F3219AF2681C19D587E0D8294C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{525D435B-AA4F-4E58-9F57-4292AE1DDEBC}">
                 <File Id="filE0EDA048BE3B4A7DAF4CDA21CEF7DDCB" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-w-24.png" />
             </Component>
-            <Component Id="cmp9FB549370355688E071B1EDC2F969199" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{79A48255-28D6-41EE-B220-E8C7B0C4F032}">
+            <Component Id="cmp9FB549370355688E071B1EDC2F969199" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{C86DBED2-E27C-49C3-A7C1-0B173555280F}">
                 <File Id="fil7FE0672762B45540F1263D92343DE087" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\max-w-30.png" />
             </Component>
-            <Component Id="cmpA884AA0C69D6F4499E26044EE2BDABA0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{732D2B29-1D66-4AE3-8095-37AD358904A1}">
+            <Component Id="cmpA884AA0C69D6F4499E26044EE2BDABA0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6578700B-4C15-4C54-B815-EE40AACED307}">
                 <File Id="fil9A00F57397D211A6BAE2F3D291646CAB" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-k-10.png" />
             </Component>
-            <Component Id="cmp269FE0AACD640A7B1EB80921BC2BE0D2" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{8C212004-C875-4395-8A40-D992CA239350}">
+            <Component Id="cmp269FE0AACD640A7B1EB80921BC2BE0D2" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{896D23D6-6699-4E18-9581-4D9AD524228A}">
                 <File Id="filF83EB99A4812D247B23A13126A1E58CC" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-k-12.png" />
             </Component>
-            <Component Id="cmp3E4DBB965B734F8A68A9470BC58A819A" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{53AF7426-D028-461A-A506-F9AFEDA44E5C}">
+            <Component Id="cmp3E4DBB965B734F8A68A9470BC58A819A" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{5F0FED77-BAC9-4983-8DED-9B7327C084B5}">
                 <File Id="filF8A1276F61873ADB2A2243ECBAD4D64B" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-k-15.png" />
             </Component>
-            <Component Id="cmp1960FF88726737DCAE06E42EFA47F1F0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{F1E2ECAA-9024-43F4-AF69-88445305D9B0}">
+            <Component Id="cmp1960FF88726737DCAE06E42EFA47F1F0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{0445201A-1AAE-4AA9-86CE-E70A58BA9888}">
                 <File Id="fil5EBC563831D60990D2AD4D3D4419CB7B" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-k-20.png" />
             </Component>
-            <Component Id="cmpAAF365CC774DFDCAEA6FB1837EE24F25" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{89D5F71D-D862-47F1-A0A9-EF9925D05A6C}">
+            <Component Id="cmpAAF365CC774DFDCAEA6FB1837EE24F25" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{5636F3F7-44D7-44D7-B44B-4AC50B9FB7D8}">
                 <File Id="fil014A67DF94EDF7E83C1CEDB7742B5107" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-k-24.png" />
             </Component>
-            <Component Id="cmp2687FCA08A3ABE94854ECB831A9A355C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{2D9E1BD2-19E1-4B10-82FB-ACD0FEF86976}">
+            <Component Id="cmp2687FCA08A3ABE94854ECB831A9A355C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{2AAF3135-E4D9-45B3-9B0A-08B38AF1CCD0}">
                 <File Id="fil8EF4933A8E89156423646024F33BF9E4" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-k-30.png" />
             </Component>
-            <Component Id="cmpEF9A7164E2675E66ECAE3AAABEC8F953" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{82AE9659-052B-4A7F-A20C-33A39E1A4487}">
+            <Component Id="cmpEF9A7164E2675E66ECAE3AAABEC8F953" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{302AD15D-D8BE-4D63-B4C8-DE1852EC4C84}">
                 <File Id="fil37836C300859E13B5B7C441E81CEE7BA" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-w-10.png" />
             </Component>
-            <Component Id="cmpE173EF604DD24BF4C903C49C052E853B" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{B6C83B5C-45F8-4CDC-83E0-E4E5A7F558D2}">
+            <Component Id="cmpE173EF604DD24BF4C903C49C052E853B" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{45EAE82D-433F-4D6F-8D67-774F7320B7AE}">
                 <File Id="filD79FAC01959970ED4F04CBA5859368F8" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-w-12.png" />
             </Component>
-            <Component Id="cmp92AA6775503BC96D0D6EF9BC25A10D5C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{38104B9C-834E-447D-AB3E-5C99B686D159}">
+            <Component Id="cmp92AA6775503BC96D0D6EF9BC25A10D5C" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{610B4217-7672-42E1-A41A-6AFE56509CCE}">
                 <File Id="filA193BCB17B701E02C02600D708BF8D0D" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-w-15.png" />
             </Component>
-            <Component Id="cmp5F4364F183549C28E87890036EC9C3A0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{CBCCC9E7-BB05-4669-9172-051B20576A19}">
+            <Component Id="cmp5F4364F183549C28E87890036EC9C3A0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{050C38E1-C306-4C74-B71E-ADAD9718516F}">
                 <File Id="filE82250491799EB36575FE5624F788384" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-w-20.png" />
             </Component>
-            <Component Id="cmpE4EB42319BA2AF76168256DC811BD3DC" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{D379D26F-DFAD-42D4-ABF9-61B47EA471FC}">
+            <Component Id="cmpE4EB42319BA2AF76168256DC811BD3DC" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{E98EB385-EBD9-48F5-A37E-E79547770B6D}">
                 <File Id="filA5A04272F9225614C84D6E945E997A08" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-w-24.png" />
             </Component>
-            <Component Id="cmp1D63E4CC2381F0842935739459EC2CA5" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{2B23A52D-CD06-48F2-B2EB-16DA2AC1E9B8}">
+            <Component Id="cmp1D63E4CC2381F0842935739459EC2CA5" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{BC1E4666-1B0E-401D-81BE-CFEC5A863B54}">
                 <File Id="fil0366162B9442E85D34ABBB64224D0C18" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\min-w-30.png" />
             </Component>
-            <Component Id="cmpFE9908E0C033E949F1848BC3D09A3607" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{B466542B-CE60-451B-9D32-8D812789F9AB}">
+            <Component Id="cmpFE9908E0C033E949F1848BC3D09A3607" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{5B85199C-6CC6-4AD8-8B04-B6FD89CA7257}">
                 <File Id="fil97414E1DE3274707890BD2E695CFDB34" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-k-10.png" />
             </Component>
-            <Component Id="cmp584496FA745BFB3923B4A5D0243579A0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{D312EAA1-3100-4109-B3DD-44CB229780B1}">
+            <Component Id="cmp584496FA745BFB3923B4A5D0243579A0" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{CD69D227-7909-4AF0-8397-B24AEAEF0D6D}">
                 <File Id="fil2D4CFFE259FE8754A04DC5BD9F0ADD17" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-k-12.png" />
             </Component>
-            <Component Id="cmpAFC03BF15F3A59D7515CAD5A410DC607" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{FFDD47F8-A21D-4753-9EE4-48CD460F417B}">
+            <Component Id="cmpAFC03BF15F3A59D7515CAD5A410DC607" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{EC1FE80C-03D5-4215-9792-A7759DACC6B8}">
                 <File Id="filF43A87723C8EA7AE8B75FFA05F3BC213" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-k-15.png" />
             </Component>
-            <Component Id="cmp388120D6D9106D9FCDD7A4C2BCE9B2F2" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{AF1E716C-538C-4591-BD12-D0599F2EEA3D}">
+            <Component Id="cmp388120D6D9106D9FCDD7A4C2BCE9B2F2" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6D16E5F0-7A66-4E89-884E-451D4B265CF3}">
                 <File Id="filCE5B3260545E44ACE38468DB664F5CC1" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-k-20.png" />
             </Component>
-            <Component Id="cmpEEB07663A49FCF6D1844BC28B20B046E" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{ABCBD29A-3507-41C5-8B78-A5548B91877B}">
+            <Component Id="cmpEEB07663A49FCF6D1844BC28B20B046E" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{7FAC7C1D-6B55-4DBA-8FDA-B9E79172D378}">
                 <File Id="fil2B54A79836F301932A6CAC4D8652A821" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-k-24.png" />
             </Component>
-            <Component Id="cmp9F783532AF82BA2608B6BE5198B4DA00" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{04BA61B5-63AC-4FA2-B240-CA2D885AFA5F}">
+            <Component Id="cmp9F783532AF82BA2608B6BE5198B4DA00" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{BEE12CCB-5AD1-473C-9699-B5E2746F937D}">
                 <File Id="filE989BF3ACB25B101F40901D2AE07664F" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-k-30.png" />
             </Component>
-            <Component Id="cmpAD3075D0BF3B4F182E5A230E643B9C31" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{398DCB82-5146-4E25-AFBE-56B628FEFD39}">
+            <Component Id="cmpAD3075D0BF3B4F182E5A230E643B9C31" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{9357092A-EB06-4D55-A9C0-340DB52B741B}">
                 <File Id="fil331E7BEB246EE195A0152959E80DC940" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-w-10.png" />
             </Component>
-            <Component Id="cmpA78B0D4683B0B8ECAA685E9EB7D8CD2A" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{1642028C-2D37-4323-BDA2-4DC4849EB644}">
+            <Component Id="cmpA78B0D4683B0B8ECAA685E9EB7D8CD2A" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{030A9BB2-D8F6-45F6-983C-ED3C68756102}">
                 <File Id="fil6E3C9050D21340FDDBEB189069641335" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-w-12.png" />
             </Component>
-            <Component Id="cmpE4EB1C337CF60BF2BBC2618EC58C3E30" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6342A679-FE1F-4BFC-86CC-F8475DF0223B}">
+            <Component Id="cmpE4EB1C337CF60BF2BBC2618EC58C3E30" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{BEC05FF4-C89A-4599-8A03-54E60C5A1F5C}">
                 <File Id="fil1DA9D557169864E6F03A36AC1F2CFF16" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-w-15.png" />
             </Component>
-            <Component Id="cmp177D9929B8034F8802F3FAFD46591B5F" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{6731B540-EC57-4EFF-9AB4-E6913663C9CF}">
+            <Component Id="cmp177D9929B8034F8802F3FAFD46591B5F" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{AD694EA8-6FED-4C19-A371-45AD9377DD42}">
                 <File Id="fil57C9C71B6E6C7E3C648246FEF4E6F058" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-w-20.png" />
             </Component>
-            <Component Id="cmp73D28765457C4078B1E8BD7EEECDACED" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{45FB6089-14F6-46C0-B568-4A6B5235775F}">
+            <Component Id="cmp73D28765457C4078B1E8BD7EEECDACED" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{43BE1CC3-1520-40AD-8A15-19C5DD7CD374}">
                 <File Id="filF0760BCA842FD7CB2A289983850362B5" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-w-24.png" />
             </Component>
-            <Component Id="cmpED2614410EA2FE2CC2661FEE4D82BE1E" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{0898EA6B-365F-4079-BAA6-51248AA45A1F}">
+            <Component Id="cmpED2614410EA2FE2CC2661FEE4D82BE1E" Directory="dirBE9482275067D136A5A2EDE0FB61C33C" Guid="{12FC429C-FA7E-4B78-949F-BA675DD7C461}">
                 <File Id="filED2BAC209DCFC191AC9D92560433BF28" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\res\icons\restore-w-30.png" />
             </Component>
-            <Component Id="cmpCD200A204224930445BC2E6F69A77E9A" Directory="dirB7AB2A025FCF4E00195EEAC525FD4E82" Guid="{4CACD1E4-E21D-4E41-AA0F-E6E97024CBB2}">
+            <Component Id="cmpCD200A204224930445BC2E6F69A77E9A" Directory="dirB7AB2A025FCF4E00195EEAC525FD4E82" Guid="{B2797AC7-5B3B-49F6-AC28-77980269CC45}">
                 <File Id="fil888FF3BDC9CF64783CC7018AD8F544AB" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\resources\app\icon.ico" />
             </Component>
-            <Component Id="cmp3A8210F31F784C8B3114BFCA5363719F" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{56B608FB-30C7-4AE4-A99B-81441E531C94}">
+            <Component Id="cmp3A8210F31F784C8B3114BFCA5363719F" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{47233D01-8E67-4C45-820D-87C32053BD86}">
                 <File Id="fil7B46C50328A661D3AB22BD1D0EE91A8C" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\build.bat" />
             </Component>
-            <Component Id="cmpB2EE2B7B59CEE5B965BBD49A6F309929" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{C3291BD5-C75A-4C03-A286-005AC3AEB02F}">
+            <Component Id="cmpB2EE2B7B59CEE5B965BBD49A6F309929" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{60D1B733-BC93-42D9-B7F9-B5325942CE43}">
                 <File Id="filB74C0E342C723988D23BDA4F6589BE5E" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\cs.bat" />
             </Component>
-            <Component Id="cmp7E7CF11ACFD06F38D115EC7284AFF800" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{D86376E1-5E3E-459F-84F7-37B424307515}">
+            <Component Id="cmp7E7CF11ACFD06F38D115EC7284AFF800" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{49D11471-E6EC-457B-9BBD-8F7EF3281846}">
                 <File Id="fil15307C352FBF23A42B9E34673C7C5C15" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\FileList.wxs" />
             </Component>
-            <Component Id="cmp4745EEF7B0E532CF183023FEC99CB823" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{7F1C6BBC-477E-46AB-97B9-426EAA6C5149}">
+            <Component Id="cmp4745EEF7B0E532CF183023FEC99CB823" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{9840EBFD-2D8D-4D21-A47A-DE7A24D63C34}">
                 <File Id="fil89C9CE8FEC6EF8E252B7C68898D1C6FD" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\Icon.ico" />
             </Component>
-            <Component Id="cmp5356FD52C8938C82816D07C5B5EAD0A7" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{DFAC5B7E-A43A-4511-BDC6-BFA4737E1A04}">
+            <Component Id="cmp5356FD52C8938C82816D07C5B5EAD0A7" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{8DA131A6-9011-4D64-8314-79191B0117FC}">
                 <File Id="filBCE798FB501BFBFF4E47D097F83BE308" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\License.rtf" />
             </Component>
-            <Component Id="cmp3A11185F6A34FB85A35B625B522EFB5F" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{EEBFDF2D-732D-40D0-9C9A-5B28C02632A8}">
+            <Component Id="cmp3A11185F6A34FB85A35B625B522EFB5F" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{CD452305-A340-4AF0-BD69-847C1F3BEC3F}">
                 <File Id="filC59202A08F492762478F5DA23FBC5DF4" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\make.bat" />
             </Component>
-            <Component Id="cmp87BBBD333B1E8E529E92D2563D868540" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{3C0A6CE1-CD4B-40AB-9E07-D3F7E215F65E}">
+            <Component Id="cmp87BBBD333B1E8E529E92D2563D868540" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{BDDAD8E0-C4EB-4A6C-9882-4C5F7D464F71}">
                 <File Id="fil08AC4F41019638BA8205F3C3D9984480" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\Product.wxs" />
             </Component>
-            <Component Id="cmpC9B60D43BB7BF7D20EDC83AD0790EEEC" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{975B2A4B-A24F-4F23-88A9-639865C82A5F}">
+            <Component Id="cmpC9B60D43BB7BF7D20EDC83AD0790EEEC" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{184572D3-7593-4D48-9202-22F6BF7A222A}">
                 <File Id="fil562E9CBA266E727DE5B69C175F617D0B" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\rep.cs" />
             </Component>
-            <Component Id="cmpA3458432BF90CF841FF5B4F23F0FC829" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{090540F5-2FD7-45C8-9785-0535E28BAD0D}">
+            <Component Id="cmpA3458432BF90CF841FF5B4F23F0FC829" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{9F5CA1F2-7D43-4DF4-9084-91055A6D7812}">
                 <File Id="fil0CDBF164DC5EC7E2E5EDD126AFC91C81" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\rep.exe" />
             </Component>
-            <Component Id="cmpD4765337CA2B2345CBD8D0F000EDCE43" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{1230C07F-626D-4F9E-941D-45D426C614AF}">
+            <Component Id="cmpD4765337CA2B2345CBD8D0F000EDCE43" Directory="dirBF7D078890F431C02E823A1881959140" Guid="{3C90B28F-5A4F-4143-99D5-233AFE9AE90E}">
                 <File Id="filEE150A125383B0178BC39F5533A26BB7" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\scanDir.bat" />
             </Component>
-            <Component Id="cmp23FDDD9147694104C85A002A116B4D3F" Directory="dir2391F7E345CF2CEC233A5DB96BF2A201" Guid="{3A1C9037-820A-4BA6-AB32-4FEBEBB29640}">
+            <Component Id="cmp23FDDD9147694104C85A002A116B4D3F" Directory="dir2391F7E345CF2CEC233A5DB96BF2A201" Guid="{A16DC6CE-861D-405D-BFA0-21AF0F3B3174}">
                 <File Id="filB9883DCCCB57D5FD1DEC754D044006C2" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\Bitmaps\Banner.png" />
             </Component>
-            <Component Id="cmp498BBE50BA1AAB082485548DF8F225E3" Directory="dir2391F7E345CF2CEC233A5DB96BF2A201" Guid="{7EF2C350-C4CA-49B4-9521-EBDCF64B169B}">
+            <Component Id="cmp498BBE50BA1AAB082485548DF8F225E3" Directory="dir2391F7E345CF2CEC233A5DB96BF2A201" Guid="{BB5CED15-8D95-4BA0-B750-F2AF16365CE5}">
                 <File Id="fil6E35CDABA23262949CA02B4E976C9A89" KeyPath="yes" Source="..\properties2csharp-win32-x64\resources\app\wixInstaller\Bitmaps\Dialog.png" />
             </Component>
-            <Component Id="cmpFB24D10083F451DC5CF0ECF779FC0B18" Directory="dirC616523A56556EF3F429B8097FDA009B" Guid="{42D9D2C2-1882-4DE9-9D45-E9885ABD3248}">
+            <Component Id="cmpFB24D10083F451DC5CF0ECF779FC0B18" Directory="dirC616523A56556EF3F429B8097FDA009B" Guid="{55492154-DA17-4BA8-9632-B0D8E5B4C487}">
                 <File Id="filE167E3865654784A541ECC91BC55388F" KeyPath="yes" Source="..\properties2csharp-win32-x64\swiftshader\libEGL.dll" />
             </Component>
-            <Component Id="cmp8D1A1A9C3EEE14DA7EA72394C6B2A57B" Directory="dirC616523A56556EF3F429B8097FDA009B" Guid="{3DAFF96A-4780-44A2-BC75-C4AEB713A4E7}">
+            <Component Id="cmp8D1A1A9C3EEE14DA7EA72394C6B2A57B" Directory="dirC616523A56556EF3F429B8097FDA009B" Guid="{49BC2B0E-A9FD-4092-8EE0-B77076234298}">
                 <File Id="fil91EB50E1EE74D192C7A7AD97C7080821" KeyPath="yes" Source="..\properties2csharp-win32-x64\swiftshader\libGLESv2.dll" />
             </Component>
         </ComponentGroup>

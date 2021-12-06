@@ -88,7 +88,7 @@ body {
 
 #window-controls {
   display: grid;
-  grid-template-columns: repeat(3, 46px);
+  grid-template-columns: repeat(4, 46px);
   position: absolute;
   top: 0;
   right: 0;
@@ -139,15 +139,17 @@ body {
 #close-button:active .icon {
   filter: invert(1);
 }
-
-#min-button {
+#reload-button {
   grid-column: 1;
 }
-#max-button, #restore-button {
+#min-button {
   grid-column: 2;
 }
-#close-button {
+#max-button, #restore-button {
   grid-column: 3;
+}
+#close-button {
+  grid-column: 4;
 }
 
 #restore-button {
@@ -170,4 +172,10 @@ iframe{
   bottom: 0;
   width: 100%;
   height: calc(100% - 32px);
+}
+
+.x{
+  height: 10px;
+  width: auto;
+  top: 0;
 }

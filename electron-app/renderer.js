@@ -23,7 +23,11 @@ window.onbeforeunload = (event) => {
 }
 
 function handleWindowControls() {
-    // Make minimise/maximise/restore/close buttons work when they are clicked
+    // Make minimise/maximise/restore/close buttons work when they are clicked    
+    document.getElementById('reload-button').addEventListener("click", event => {
+        window.location.reload();
+    });
+
     document.getElementById('min-button').addEventListener("click", event => {
         win.minimize();
     });

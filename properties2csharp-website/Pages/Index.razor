@@ -126,7 +126,7 @@
 	}
 	void CopyCode()
 	{
-		js.InvokeVoidAsync("navigator.clipboard.writeText", result);
+		js.InvokeVoidAsync("copyCode", result);
 	}
 
 	bool electron = true;

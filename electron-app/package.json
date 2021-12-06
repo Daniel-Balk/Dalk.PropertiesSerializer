@@ -18,7 +18,8 @@
   "files": [
     "./*.*",
     "./res/*",
-    "./node_modules/*"
+    "./node_modules/*",
+    "./fa/*"
   ],
   "directories": {
     "buildResources": "res"
