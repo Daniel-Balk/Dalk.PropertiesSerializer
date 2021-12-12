@@ -5,7 +5,7 @@
            Language="1033"
            Version="1.0.0.0"
            Manufacturer="Dalk"
-		   UpgradeCode="{d3af2e01-7813-4a95-a001-75d0d7ed2388}"
+		   UpgradeCode="{d3af2e01-7813-4a95-a001-75d0d7ed2389}"
 			 >
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
