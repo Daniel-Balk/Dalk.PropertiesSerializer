@@ -343,6 +343,5 @@ node_modules/*
 Properties2CSharp.exe
 Properties2CSharp.msi
 
-
+# Font Awesome
 fa
-fas
