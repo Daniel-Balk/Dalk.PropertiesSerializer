@@ -12,15 +12,18 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            Program p = new Program();
+            Program p = new();
             p.RunTestCode();
         }
         internal void RunTestCode()
         {
-            File.WriteAllText("test.cs",  properties2csharp.ClassGenerator.Generate(File.ReadAllText("test.properties"),"TestClass"));
-            //string properties = File.ReadAllText("test.properties");
-            //var @object = Serializer.Deserialize<TestObject>(properties);
+            //File.WriteAllText("test.cs",  properties2csharp.ClassGenerator.Generate(File.ReadAllText("test.properties"),"TestClass"));
+            string properties = File.ReadAllText("test.properties");
+            var @object = Serializer.Deserialize<TestObject>(properties);
+            //var @object = new TestObject();
+            Console.WriteLine(@object.TestString);
             //properties = Serializer.Serialize(@object);
+            //Console.WriteLine(properties);
             //Serializer.LoadTypeSerializersFromAssembly(Assembly.GetAssembly(GetType()));
             //Serializer.AddCustomTypeSerializer(new TestTypeSerializer());
         }

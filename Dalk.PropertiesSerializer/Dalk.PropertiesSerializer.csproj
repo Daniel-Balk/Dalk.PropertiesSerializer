@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Dalk.Properties</AssemblyName>
     <RootNamespace />
     <Authors>Dalk</Authors>
@@ -16,6 +16,7 @@
     <Description>a properties serializer for C#</Description>
     <Product>Dalk.PropertiesSerializer</Product>
     <PackageId>Dalk.PropertiesSerializer</PackageId>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

@@ -44,8 +44,20 @@ namespace Dalk.PropertiesSerializer.TypeSerializers
             ITypeSerializer ser = null;
             foreach (var v in Serializers)
             {
-                if (o.GetType() == v.GetCType())
-                    ser = v;
+                if (o != null)
+                {
+                    if (o.GetType() == v.GetCType())
+                    {
+                        ser = v;
+                    }
+                }
+                else
+                {
+                    if ("".GetType() == v.GetCType())
+                    {
+                        ser = v;
+                    }
+                }
             }
             if(ser == null)
             {

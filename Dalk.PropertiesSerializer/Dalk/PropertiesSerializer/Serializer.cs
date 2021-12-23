@@ -1,6 +1,7 @@
 ﻿using Dalk.PropertiesSerializer.TypeSerializers;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 
 namespace Dalk.PropertiesSerializer
@@ -10,6 +11,50 @@ namespace Dalk.PropertiesSerializer
     /// </summary>
     public static class Serializer
     {
+        private static void IgnoreAndName(out bool ignore, out string name, PropertyInfo c)
+        {
+            var iignore = false;
+            c.GetAccessors(true).ToList().ForEach(x =>
+            {
+                if(x.IsStatic)
+                    iignore = true;
+            });
+            if (!c.CanWrite)
+                iignore = true;
+            var iname = c.Name;
+            var attrs1 = c.GetCustomAttributes(typeof(PropertyNameAttribute), true);
+            var attrs2 = c.GetCustomAttributes(typeof(PropertyIgnoreAttribute), true);
+            var attrs = attrs1.Concat(attrs2).ToList();
+            foreach (var a in attrs)
+            {
+                try
+                {
+                    if (a is PropertyNameAttribute na)
+                    {
+                        iname = na.Name;
+                    }
+                }
+                catch (Exception)
+                {
+
+                }
+                try
+                {
+                    if (a is PropertyIgnoreAttribute ia)
+                    {
+                        if (ia.Ignore)
+                            iignore = true;
+                    }
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+
+            ignore = iignore;
+            name = iname;
+        }
         /// <summary>
         /// serialize an object to a properties string
         /// </summary>
@@ -25,33 +70,21 @@ namespace Dalk.PropertiesSerializer
             var propertyValues = o.GetType().GetProperties();
             foreach (var c in propertyValues)
             {
-                var nm = c.Name;
-                var attrs = c.GetCustomAttributes(typeof(PropertyNameAttribute), true);
-                foreach (var a in attrs)
+                IgnoreAndName(out bool ignore, out string nm, c);
+                if (!ignore)
                 {
-                    try
+                    var vl = c.GetValue(o);
+                    var ln = SerialRegistry.Serialize(nm, vl, out bool can);
+                    if (can)
                     {
-                        if (a is PropertyNameAttribute na)
-                        {
-                            nm = na.Name;
-                        }
+                        Add(ln);
                     }
-                    catch (Exception)
+                    else
                     {
-
+                        var t = Serialize(vl);
+                        var lns = AddPrefix(t, nm + ".");
+                        Add(lns);
                     }
-                }
-                var vl = c.GetValue(o);
-                var ln = SerialRegistry.Serialize(nm, vl, out bool can);
-                if (can)
-                {
-                    Add(ln);
-                }
-                else
-                {
-                    var t = Serialize(vl);
-                    var lns = AddPrefix(t, nm + ".");
-                    Add(lns);
                 }
             }
 
@@ -117,44 +150,31 @@ namespace Dalk.PropertiesSerializer
                 var propertyValues = t.GetProperties();
                 foreach (var c in propertyValues)
                 {
-                    var nm = c.Name;
-                    var attrs = c.GetCustomAttributes(typeof(PropertyNameAttribute), true);
-                    foreach (var a in attrs)
-                    {
+                    IgnoreAndName(out bool ignore, out string nm, c);
+
+                    if (!ignore)
                         try
                         {
-                            if (a is PropertyNameAttribute na)
+                            var snm = name + "." + nm;
+                            var sval = "";
+                            if (kvps.ContainsKey(snm))
                             {
-                                nm = na.Name;
+                                sval = kvps[snm];
+                            }
+                            var deserialize = SerialRegistry.Deserialize(sval, c.PropertyType, out var can);
+                            if (can)
+                            {
+                                c.SetValue(o, deserialize);
+                            }
+                            else
+                            {
+                                c.SetValue(o, GetSubProperty(c.PropertyType, nm));
                             }
                         }
                         catch (Exception)
                         {
 
                         }
-                    }
-                    try
-                    {
-                        var snm = name + "." + nm;
-                        var sval = "";
-                        if (kvps.ContainsKey(snm))
-                        {
-                            sval = kvps[snm];
-                        }
-                        var deserialize = SerialRegistry.Deserialize(sval, c.PropertyType, out var can);
-                        if (can)
-                        {
-                            c.SetValue(o, deserialize);
-                        }
-                        else
-                        {
-                            c.SetValue(o, GetSubProperty(c.PropertyType, nm));
-                        }
-                    }
-                    catch (Exception)
-                    {
-
-                    }
                 }
                 return o;
             }
@@ -162,43 +182,29 @@ namespace Dalk.PropertiesSerializer
             var propertyValuesx = instance.GetType().GetProperties();
             foreach (var c in propertyValuesx)
             {
-                var nm = c.Name;
-                var attrs = c.GetCustomAttributes(typeof(PropertyNameAttribute),true);
-                foreach (var a in attrs)
-                {
+                IgnoreAndName(out bool ignore, out string nm, c);
+                if (!ignore)
                     try
                     {
-                        if (a is PropertyNameAttribute na)
+                        var sval = "";
+                        if (kvps.ContainsKey(nm))
                         {
-                            nm = na.Name;
+                            sval = kvps[nm];
+                        }
+                        var deserialize = SerialRegistry.Deserialize(sval, c.PropertyType, out var can);
+                        if (can)
+                        {
+                            c.SetValue(instance, deserialize);
+                        }
+                        else
+                        {
+                            c.SetValue(instance, GetSubProperty(c.PropertyType, nm));
                         }
                     }
                     catch (Exception)
                     {
 
                     }
-                }
-                try
-                {
-                    var sval = "";
-                    if (kvps.ContainsKey(nm))
-                    {
-                        sval = kvps[nm];
-                    }
-                    var deserialize = SerialRegistry.Deserialize(sval, c.PropertyType, out var can);
-                    if (can)
-                    {
-                        c.SetValue(instance, deserialize);
-                    }
-                    else
-                    {
-                        c.SetValue(instance, GetSubProperty(c.PropertyType, nm));
-                    }
-                }
-                catch (Exception)
-                {
-
-                }
             }
 
 
