@@ -1,4 +1,4 @@
-# Dalk.Properties
+# Dalk.PropertiesSerializer
  A properties serializer for C#
 
 
