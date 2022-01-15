@@ -24,12 +24,12 @@ function isElectron() {
     }
 }
 
+const { clipboard } = require('electron');
 function copyCode(code) {
     if (!isElectronX()) {
         navigator.clipboard.writeText(code);
     }
     else {
-        const { clipboard } = require('electron');
         clipboard.writeText(code);
     }
 }
